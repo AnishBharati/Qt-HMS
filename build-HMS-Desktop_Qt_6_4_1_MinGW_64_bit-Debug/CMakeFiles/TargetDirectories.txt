@@ -1,0 +1,9 @@
+C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-HMS-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/CMakeFiles/HMS.dir
+C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-HMS-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-HMS-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-HMS-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-HMS-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/CMakeFiles/install.dir
+C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-HMS-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-HMS-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-HMS-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/CMakeFiles/HMS_autogen_timestamp_deps.dir
+C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-HMS-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/CMakeFiles/HMS_autogen.dir

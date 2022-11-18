@@ -1,0 +1,9 @@
+# ninja log v5
+2	1042	6904896789982443	HMS_autogen/timestamp	fa497f93df8c9235
+2	1042	6904896789982443	HMS_autogen/mocs_compilation.cpp	fa497f93df8c9235
+2	1042	6904896789982443	C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-HMS-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/HMS_autogen/timestamp	fa497f93df8c9235
+2	1042	6904896789982443	C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-HMS-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/HMS_autogen/mocs_compilation.cpp	fa497f93df8c9235
+1043	3175	6904896812842460	CMakeFiles/HMS.dir/HMS_autogen/mocs_compilation.cpp.obj	a9733b1002e899ce
+1046	3198	6904896813092414	CMakeFiles/HMS.dir/main.cpp.obj	679ca548ebabfd2e
+1049	3366	6904896814763358	CMakeFiles/HMS.dir/mainwindow.cpp.obj	eac3453a3723b2b3
+3367	3588	6904896816923235	HMS.exe	785cfff360788fd9
