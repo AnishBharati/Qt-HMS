@@ -32,14 +32,14 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\Doctor_Appointment_In_QT",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\Doctor_Appointment_In_QT",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtSql",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -58,10 +58,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\Doctor_Appointment_In_QT\\main.cpp"
+        "C:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\Doctor_Appointment_In_QT\\main.cpp"
     ],
-    "directory": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/Doctor_Appointment_In_QT/main.cpp"
+    "directory": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/Doctor_Appointment_In_QT/main.cpp"
 },
 {
     "arguments": [
@@ -96,14 +96,14 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\Doctor_Appointment_In_QT",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\Doctor_Appointment_In_QT",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtSql",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -122,10 +122,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\Doctor_Appointment_In_QT\\mainwindow.cpp"
+        "C:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\Doctor_Appointment_In_QT\\mainwindow.cpp"
     ],
-    "directory": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/Doctor_Appointment_In_QT/mainwindow.cpp"
+    "directory": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/Doctor_Appointment_In_QT/mainwindow.cpp"
 },
 {
     "arguments": [
@@ -160,14 +160,14 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\Doctor_Appointment_In_QT",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\Doctor_Appointment_In_QT",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtSql",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -186,10 +186,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\Doctor_Appointment_In_QT\\booking.cpp"
+        "C:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\Doctor_Appointment_In_QT\\booking.cpp"
     ],
-    "directory": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/Doctor_Appointment_In_QT/booking.cpp"
+    "directory": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/Doctor_Appointment_In_QT/booking.cpp"
 },
 {
     "arguments": [
@@ -224,14 +224,14 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\Doctor_Appointment_In_QT",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\Doctor_Appointment_In_QT",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtSql",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -250,10 +250,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\Doctor_Appointment_In_QT\\cancellation.cpp"
+        "C:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\Doctor_Appointment_In_QT\\cancellation.cpp"
     ],
-    "directory": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/Doctor_Appointment_In_QT/cancellation.cpp"
+    "directory": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/Doctor_Appointment_In_QT/cancellation.cpp"
 },
 {
     "arguments": [
@@ -288,14 +288,14 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\Doctor_Appointment_In_QT",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\Doctor_Appointment_In_QT",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtSql",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -314,10 +314,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\Doctor_Appointment_In_QT\\availableslots.cpp"
+        "C:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\Doctor_Appointment_In_QT\\availableslots.cpp"
     ],
-    "directory": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/Doctor_Appointment_In_QT/availableslots.cpp"
+    "directory": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/Doctor_Appointment_In_QT/availableslots.cpp"
 },
 {
     "arguments": [
@@ -352,14 +352,14 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\Doctor_Appointment_In_QT",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\Doctor_Appointment_In_QT",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtSql",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -378,10 +378,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\Doctor_Appointment_In_QT\\records.cpp"
+        "C:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\Doctor_Appointment_In_QT\\records.cpp"
     ],
-    "directory": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/Doctor_Appointment_In_QT/records.cpp"
+    "directory": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/Doctor_Appointment_In_QT/records.cpp"
 },
 {
     "arguments": [
@@ -416,14 +416,14 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\Doctor_Appointment_In_QT",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\Doctor_Appointment_In_QT",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtSql",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -442,10 +442,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\Doctor_Appointment_In_QT\\mydb.cpp"
+        "C:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\Doctor_Appointment_In_QT\\mydb.cpp"
     ],
-    "directory": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/Doctor_Appointment_In_QT/mydb.cpp"
+    "directory": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/Doctor_Appointment_In_QT/mydb.cpp"
 },
 {
     "arguments": [
@@ -480,14 +480,14 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\Doctor_Appointment_In_QT",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\Doctor_Appointment_In_QT",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtSql",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -506,10 +506,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\Doctor_Appointment_In_QT\\mainwindow.h"
+        "C:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\Doctor_Appointment_In_QT\\mainwindow.h"
     ],
-    "directory": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/Doctor_Appointment_In_QT/mainwindow.h"
+    "directory": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/Doctor_Appointment_In_QT/mainwindow.h"
 },
 {
     "arguments": [
@@ -544,14 +544,14 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\Doctor_Appointment_In_QT",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\Doctor_Appointment_In_QT",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtSql",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -570,10 +570,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\Doctor_Appointment_In_QT\\booking.h"
+        "C:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\Doctor_Appointment_In_QT\\booking.h"
     ],
-    "directory": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/Doctor_Appointment_In_QT/booking.h"
+    "directory": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/Doctor_Appointment_In_QT/booking.h"
 },
 {
     "arguments": [
@@ -608,14 +608,14 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\Doctor_Appointment_In_QT",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\Doctor_Appointment_In_QT",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtSql",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -634,10 +634,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\Doctor_Appointment_In_QT\\cancellation.h"
+        "C:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\Doctor_Appointment_In_QT\\cancellation.h"
     ],
-    "directory": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/Doctor_Appointment_In_QT/cancellation.h"
+    "directory": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/Doctor_Appointment_In_QT/cancellation.h"
 },
 {
     "arguments": [
@@ -672,14 +672,14 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\Doctor_Appointment_In_QT",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\Doctor_Appointment_In_QT",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtSql",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -698,10 +698,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\Doctor_Appointment_In_QT\\availableslots.h"
+        "C:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\Doctor_Appointment_In_QT\\availableslots.h"
     ],
-    "directory": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/Doctor_Appointment_In_QT/availableslots.h"
+    "directory": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/Doctor_Appointment_In_QT/availableslots.h"
 },
 {
     "arguments": [
@@ -736,14 +736,14 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\Doctor_Appointment_In_QT",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\Doctor_Appointment_In_QT",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtSql",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -762,10 +762,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\Doctor_Appointment_In_QT\\records.h"
+        "C:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\Doctor_Appointment_In_QT\\records.h"
     ],
-    "directory": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/Doctor_Appointment_In_QT/records.h"
+    "directory": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/Doctor_Appointment_In_QT/records.h"
 },
 {
     "arguments": [
@@ -800,14 +800,14 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\Doctor_Appointment_In_QT",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\Doctor_Appointment_In_QT",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtSql",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -826,10 +826,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\Doctor_Appointment_In_QT\\mydb.h"
+        "C:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\Doctor_Appointment_In_QT\\mydb.h"
     ],
-    "directory": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/Doctor_Appointment_In_QT/mydb.h"
+    "directory": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/Doctor_Appointment_In_QT/mydb.h"
 },
 {
     "arguments": [
@@ -864,14 +864,14 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\Doctor_Appointment_In_QT",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\Doctor_Appointment_In_QT",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtSql",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -890,10 +890,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\ui_booking.h"
+        "C:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\ui_mainwindow.h"
     ],
-    "directory": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/ui_booking.h"
+    "directory": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/ui_mainwindow.h"
 },
 {
     "arguments": [
@@ -928,14 +928,14 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\Doctor_Appointment_In_QT",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\Doctor_Appointment_In_QT",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtSql",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -954,10 +954,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\ui_records.h"
+        "C:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\ui_booking.h"
     ],
-    "directory": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/ui_records.h"
+    "directory": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/ui_booking.h"
 },
 {
     "arguments": [
@@ -992,14 +992,14 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\Doctor_Appointment_In_QT",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\Doctor_Appointment_In_QT",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtSql",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -1018,10 +1018,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\ui_mainwindow.h"
+        "C:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\ui_records.h"
     ],
-    "directory": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/ui_mainwindow.h"
+    "directory": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/ui_records.h"
 },
 {
     "arguments": [
@@ -1056,14 +1056,14 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\Doctor_Appointment_In_QT",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\Doctor_Appointment_In_QT",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtSql",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -1082,10 +1082,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\ui_availableslots.h"
+        "C:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\ui_availableslots.h"
     ],
-    "directory": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/ui_availableslots.h"
+    "directory": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/ui_availableslots.h"
 },
 {
     "arguments": [
@@ -1120,14 +1120,14 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\Doctor_Appointment_In_QT",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\Doctor_Appointment_In_QT",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtSql",
         "-IC:\\Qt\\6.4.1\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -1146,9 +1146,9 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\Users\\dell\\OneDrive\\Documents\\anishgit\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\ui_cancellation.h"
+        "C:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\ui_cancellation.h"
     ],
-    "directory": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/dell/OneDrive/Documents/anishgit/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/ui_cancellation.h"
+    "directory": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/build-Doctor_Appointment_In_QT-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/ui_cancellation.h"
 }
 ]

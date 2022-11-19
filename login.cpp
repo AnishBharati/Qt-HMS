@@ -1,12 +1,16 @@
 #include "login.h"
 #include "ui_login.h"
+#include<QPixmap>
 
 Login::Login(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::Login)
+
 {
     ui->setupUi(this);
-     mydb=QSqlDatabase::addDatabase("QSQLITE");
+    QPixmap login("C:/Users/Suraj/Downloads/log.png");
+    ui->label_pic->setPixmap(login);
+    mydb=QSqlDatabase::addDatabase("QSQLITE");
     mydb.setDatabaseName("C:/Users/jackq/Desktop/QT LOGIN SQL/Database.db");
 
     if(!mydb.open())
