@@ -1,18 +1,19 @@
 #include "login.h"
 #include "Patientsinfo.h"
 #include "ui_login.h"
-
+#include<QPixmap>
 Login::Login(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::Login)
 {
     ui->setupUi(this);
-
+    QPixmap login("C:/Users/Suraj/Downloads/log.png");
+    ui->label_pic->setPixmap(login);
 
     if(!connOpen())
-            ui->label->setText("failed to open");
+            ui->label->setText("Failed to open Database");
             else
-           ui->label->setText("connected");
+           ui->label->setText("Database connected");
 }
 
 Login::~Login()

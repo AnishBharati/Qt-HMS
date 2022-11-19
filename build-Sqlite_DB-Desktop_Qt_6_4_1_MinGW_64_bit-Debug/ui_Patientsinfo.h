@@ -34,6 +34,7 @@ public:
     QLabel *label_10;
     QLineEdit *txt_phone;
     QPushButton *pushButton;
+    QPushButton *pushButton_2;
     QLabel *label_sec_status;
 
     void setupUi(QDialog *patientsinfo)
@@ -77,6 +78,9 @@ public:
         pushButton = new QPushButton(groupBox);
         pushButton->setObjectName("pushButton");
         pushButton->setGeometry(QRect(110, 370, 101, 31));
+        pushButton_2 = new QPushButton(groupBox);
+        pushButton_2->setObjectName("pushButton_2");
+        pushButton_2->setGeometry(QRect(400, 370, 83, 29));
         label_sec_status = new QLabel(patientsinfo);
         label_sec_status->setObjectName("label_sec_status");
         label_sec_status->setGeometry(QRect(120, 450, 63, 20));
@@ -96,6 +100,7 @@ public:
         label_9->setText(QCoreApplication::translate("patientsinfo", "Age", nullptr));
         label_10->setText(QCoreApplication::translate("patientsinfo", "Phone no.", nullptr));
         pushButton->setText(QCoreApplication::translate("patientsinfo", "save", nullptr));
+        pushButton_2->setText(QCoreApplication::translate("patientsinfo", "NEXT", nullptr));
         label_sec_status->setText(QCoreApplication::translate("patientsinfo", "Text label", nullptr));
     } // retranslateUi
 

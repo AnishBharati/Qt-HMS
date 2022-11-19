@@ -12,7 +12,6 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QGroupBox>
-#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
@@ -30,15 +29,12 @@ public:
     QLabel *label;
     QGroupBox *groupBox;
     QPushButton *pushButton;
-    QWidget *widget;
-    QHBoxLayout *horizontalLayout;
-    QLabel *label_3;
-    QLineEdit *lineEdit_password;
-    QWidget *widget1;
-    QHBoxLayout *horizontalLayout_2;
     QLabel *label_2;
+    QLabel *label_3;
     QLineEdit *lineEdit_username;
+    QLineEdit *lineEdit_password;
     QLabel *label_pic;
+    QLabel *label_4;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -57,56 +53,56 @@ public:
         label->setFont(font);
         groupBox = new QGroupBox(centralwidget);
         groupBox->setObjectName("groupBox");
-        groupBox->setGeometry(QRect(350, 90, 341, 301));
+        groupBox->setGeometry(QRect(380, 100, 341, 331));
+        QFont font1;
+        font1.setPointSize(11);
+        font1.setBold(true);
+        font1.setUnderline(false);
+        groupBox->setFont(font1);
         pushButton = new QPushButton(groupBox);
         pushButton->setObjectName("pushButton");
-        pushButton->setGeometry(QRect(100, 210, 83, 29));
-        pushButton->setFont(font);
-        widget = new QWidget(groupBox);
-        widget->setObjectName("widget");
-        widget->setGeometry(QRect(20, 130, 195, 30));
-        horizontalLayout = new QHBoxLayout(widget);
-        horizontalLayout->setObjectName("horizontalLayout");
-        horizontalLayout->setContentsMargins(0, 0, 0, 0);
-        label_3 = new QLabel(widget);
-        label_3->setObjectName("label_3");
-        label_3->setFont(font);
-
-        horizontalLayout->addWidget(label_3);
-
-        lineEdit_password = new QLineEdit(widget);
-        lineEdit_password->setObjectName("lineEdit_password");
-        lineEdit_password->setAutoFillBackground(false);
-        lineEdit_password->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255)"));
-        lineEdit_password->setEchoMode(QLineEdit::Password);
-
-        horizontalLayout->addWidget(lineEdit_password);
-
-        widget1 = new QWidget(groupBox);
-        widget1->setObjectName("widget1");
-        widget1->setGeometry(QRect(20, 50, 200, 30));
-        horizontalLayout_2 = new QHBoxLayout(widget1);
-        horizontalLayout_2->setObjectName("horizontalLayout_2");
-        horizontalLayout_2->setContentsMargins(0, 0, 0, 0);
-        label_2 = new QLabel(widget1);
+        pushButton->setGeometry(QRect(120, 270, 83, 29));
+        QFont font2;
+        font2.setPointSize(10);
+        font2.setBold(true);
+        font2.setUnderline(false);
+        pushButton->setFont(font2);
+        label_2 = new QLabel(groupBox);
         label_2->setObjectName("label_2");
-        label_2->setFont(font);
-
-        horizontalLayout_2->addWidget(label_2);
-
-        lineEdit_username = new QLineEdit(widget1);
+        label_2->setGeometry(QRect(20, 60, 81, 31));
+        QFont font3;
+        font3.setPointSize(10);
+        font3.setBold(false);
+        font3.setUnderline(false);
+        label_2->setFont(font3);
+        label_3 = new QLabel(groupBox);
+        label_3->setObjectName("label_3");
+        label_3->setGeometry(QRect(20, 160, 81, 31));
+        label_3->setFont(font3);
+        lineEdit_username = new QLineEdit(groupBox);
         lineEdit_username->setObjectName("lineEdit_username");
-
-        horizontalLayout_2->addWidget(lineEdit_username);
-
+        lineEdit_username->setGeometry(QRect(20, 100, 201, 31));
+        lineEdit_username->setFont(font3);
+        lineEdit_password = new QLineEdit(groupBox);
+        lineEdit_password->setObjectName("lineEdit_password");
+        lineEdit_password->setGeometry(QRect(20, 200, 201, 31));
+        lineEdit_password->setFont(font3);
         label_pic = new QLabel(centralwidget);
         label_pic->setObjectName("label_pic");
         label_pic->setGeometry(QRect(30, 60, 301, 361));
         label_pic->setPixmap(QPixmap(QString::fromUtf8("../../../Downloads/neon-aesthetic-17.jpg")));
+        label_4 = new QLabel(centralwidget);
+        label_4->setObjectName("label_4");
+        label_4->setGeometry(QRect(220, 20, 341, 41));
+        QFont font4;
+        font4.setPointSize(13);
+        font4.setBold(true);
+        font4.setUnderline(true);
+        label_4->setFont(font4);
         Login->setCentralWidget(centralwidget);
         menubar = new QMenuBar(Login);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 800, 25));
+        menubar->setGeometry(QRect(0, 0, 800, 26));
         Login->setMenuBar(menubar);
         statusbar = new QStatusBar(Login);
         statusbar->setObjectName("statusbar");
@@ -121,11 +117,12 @@ public:
     {
         Login->setWindowTitle(QCoreApplication::translate("Login", "Login", nullptr));
         label->setText(QCoreApplication::translate("Login", "Status", nullptr));
-        groupBox->setTitle(QCoreApplication::translate("Login", "Signin", nullptr));
+        groupBox->setTitle(QCoreApplication::translate("Login", "                            Login", nullptr));
         pushButton->setText(QCoreApplication::translate("Login", "Login", nullptr));
-        label_3->setText(QCoreApplication::translate("Login", "Password", nullptr));
         label_2->setText(QCoreApplication::translate("Login", "Username", nullptr));
+        label_3->setText(QCoreApplication::translate("Login", "Password", nullptr));
         label_pic->setText(QString());
+        label_4->setText(QCoreApplication::translate("Login", "Hospital Management System", nullptr));
     } // retranslateUi
 
 };
