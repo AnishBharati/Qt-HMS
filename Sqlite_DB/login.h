@@ -25,7 +25,7 @@ class Login : public QMainWindow
         bool connOpen()
         {
             mydb=QSqlDatabase::addDatabase("QSQLITE");
-           mydb.setDatabaseName("C:/Users/jackq/Desktop/QT LOGIN SQL/Database.db");
+           mydb.setDatabaseName("C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/Sqlite_DB/Database.db");
 
            if(!mydb.open()){
                    qDebug()<<("failed to open");
