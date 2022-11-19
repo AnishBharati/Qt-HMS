@@ -11,7 +11,7 @@ Login::Login(QWidget *parent)
     QPixmap login("C:/Users/Suraj/Downloads/log.png");
     ui->label_pic->setPixmap(login);
     mydb=QSqlDatabase::addDatabase("QSQLITE");
-    mydb.setDatabaseName("C:/Users/jackq/Desktop/QT LOGIN SQL/Database.db");
+    mydb.setDatabaseName("C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/Database.db");
 
     if(!mydb.open())
             ui->label->setText("failed to open");
