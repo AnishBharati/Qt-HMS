@@ -11,15 +11,18 @@ CONFIG += c++17
 SOURCES += \
     Patientsinfo.cpp \
     main.cpp \
-    login.cpp
+    login.cpp \
+    secdialog.cpp
 
 HEADERS += \
     Patientsinfo.h \
-    login.h
+    login.h \
+    secdialog.h
 
 FORMS += \
     Patientsinfo.ui \
-    login.ui
+    login.ui \
+    secdialog.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
