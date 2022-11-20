@@ -172,14 +172,26 @@
    <widget class="QLabel" name="label_pic">
     <property name="geometry">
      <rect>
+<<<<<<< HEAD
       <x>50</x>
       <y>100</y>
+=======
+      <x>40</x>
+      <y>80</y>
+>>>>>>> cf50c950513d68d95859370b8e1eec1c316883a1
       <width>301</width>
       <height>331</height>
      </rect>
     </property>
     <property name="text">
+<<<<<<< HEAD
      <string>TextLabel</string>
+=======
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>log.jpg</pixmap>
+>>>>>>> cf50c950513d68d95859370b8e1eec1c316883a1
     </property>
    </widget>
   </widget>
@@ -189,7 +201,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>26</height>
+     <height>25</height>
     </rect>
    </property>
   </widget>
