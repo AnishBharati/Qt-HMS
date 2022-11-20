@@ -6,7 +6,7 @@
 #include<QtSql>
 #include<QtDebug>
 #include<QFileInfo>
-//#include"Patientsinfo.h"
+#include"secdialog.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Login; }
@@ -45,8 +45,10 @@ public:
 private slots:
     void on_pushButton_clicked();
 
+
 private:
     Ui::Login *ui;
+    secDialog *secd;
 
 };
 #endif // LOGIN_H

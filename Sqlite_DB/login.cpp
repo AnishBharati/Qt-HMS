@@ -46,7 +46,8 @@ void Login::on_pushButton_clicked()
             }
             if(count==1){
                     ui->label->setText("username and password is correct ");
-
+                    secd = new secDialog (this);
+                    secd->show();
                     connClose();
 
                     this->hide();
