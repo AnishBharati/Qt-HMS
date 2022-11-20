@@ -173,8 +173,13 @@
     <property name="geometry">
      <rect>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <x>50</x>
       <y>100</y>
+=======
+      <x>40</x>
+      <y>80</y>
+>>>>>>> cf50c950513d68d95859370b8e1eec1c316883a1
 =======
       <x>40</x>
       <y>80</y>
@@ -185,12 +190,18 @@
     </property>
     <property name="text">
 <<<<<<< HEAD
+<<<<<<< HEAD
      <string>TextLabel</string>
 =======
+=======
+>>>>>>> cf50c950513d68d95859370b8e1eec1c316883a1
      <string/>
     </property>
     <property name="pixmap">
      <pixmap>log.jpg</pixmap>
+<<<<<<< HEAD
+>>>>>>> cf50c950513d68d95859370b8e1eec1c316883a1
+=======
 >>>>>>> cf50c950513d68d95859370b8e1eec1c316883a1
     </property>
    </widget>

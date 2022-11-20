@@ -29,6 +29,7 @@
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< HEAD
      <x>500</x>
@@ -47,12 +48,17 @@
     </font>
    </property>
 =======
+=======
+>>>>>>> cf50c950513d68d95859370b8e1eec1c316883a1
      <x>120</x>
      <y>200</y>
      <width>201</width>
      <height>121</height>
     </rect>
    </property>
+<<<<<<< HEAD
+>>>>>>> cf50c950513d68d95859370b8e1eec1c316883a1
+=======
 >>>>>>> cf50c950513d68d95859370b8e1eec1c316883a1
    <property name="text">
     <string>Records</string>
@@ -61,6 +67,7 @@
   <widget class="QPushButton" name="pushButton_3">
    <property name="geometry">
     <rect>
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< HEAD
      <x>500</x>
@@ -79,17 +86,23 @@
     </font>
    </property>
 =======
+=======
+>>>>>>> cf50c950513d68d95859370b8e1eec1c316883a1
      <x>520</x>
      <y>200</y>
      <width>201</width>
      <height>121</height>
     </rect>
    </property>
+<<<<<<< HEAD
+>>>>>>> cf50c950513d68d95859370b8e1eec1c316883a1
+=======
 >>>>>>> cf50c950513d68d95859370b8e1eec1c316883a1
    <property name="text">
     <string>Emergency</string>
    </property>
   </widget>
+<<<<<<< HEAD
 <<<<<<< HEAD
   <widget class="QLabel" name="label_4">
    <property name="geometry">
@@ -166,6 +179,8 @@ hr { height: 1px; border-width: 0; }
     <string>Admin Dashboard</string>
    </property>
   </widget>
+=======
+>>>>>>> cf50c950513d68d95859370b8e1eec1c316883a1
 =======
 >>>>>>> cf50c950513d68d95859370b8e1eec1c316883a1
  </widget>
