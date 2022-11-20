@@ -1,7 +1,7 @@
 #include "secdialog.h"
 #include "ui_secdialog.h"
 #include<QMessageBox>
-#include "login.h"
+
 secDialog::secDialog(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::secDialog)
@@ -54,7 +54,7 @@ void secDialog::on_pushButton_clicked()
         }
         else
         {
-            QMessageBox::information(this,tr("error::"),qry.lastError().text());
+            QMessageBox::critical(this,tr("error::"),qry.lastError().text());
 
         }
 }
@@ -65,6 +65,8 @@ void secDialog::on_pushButton_clicked()
 void secDialog::on_pushButton_2_clicked()
 {
     this->hide();
-
+    patientsinfo Patientsinfo;
+    Patientsinfo.setModal(true);
+    Patientsinfo.exec();
 }
 

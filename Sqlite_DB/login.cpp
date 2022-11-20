@@ -1,5 +1,5 @@
 #include "login.h"
-//#include "Patientsinfo.h"
+#include "Patientsinfo.h"
 #include "ui_login.h"
 #include<QPixmap>
 Login::Login(QWidget *parent)
@@ -46,12 +46,13 @@ void Login::on_pushButton_clicked()
             }
             if(count==1){
                     ui->label->setText("username and password is correct ");
-                    secd = new secDialog (this);
-                    secd->show();
+
                     connClose();
 
                     this->hide();
-
+                    patientsinfo Patientsinfo;
+                    Patientsinfo.setModal(true);
+                    Patientsinfo.exec();
             }
             if(count>1)
                     ui->label->setText("Duplicate username and password ");

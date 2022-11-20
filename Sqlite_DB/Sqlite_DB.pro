@@ -9,15 +9,21 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    Patientsinfo.cpp \
+    emergency.cpp \
     main.cpp \
     login.cpp \
     secdialog.cpp
 
 HEADERS += \
+    Patientsinfo.h \
+    emergency.h \
     login.h \
     secdialog.h
 
 FORMS += \
+    Patientsinfo.ui \
+    emergency.ui \
     login.ui \
     secdialog.ui
 
