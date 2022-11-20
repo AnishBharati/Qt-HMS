@@ -1,8 +1,9 @@
 #ifndef SECDIALOG_H
 #define SECDIALOG_H
 
-#include <QDialog>
 
+#include <QDialog>
+#include"Patientsinfo.h"
 namespace Ui {
 class secDialog;
 }
@@ -14,6 +15,11 @@ class secDialog : public QDialog
 public:
     explicit secDialog(QWidget *parent = nullptr);
     ~secDialog();
+
+private slots:
+    void on_pushButton_clicked();
+
+    void on_pushButton_2_clicked();
 
 private:
     Ui::secDialog *ui;

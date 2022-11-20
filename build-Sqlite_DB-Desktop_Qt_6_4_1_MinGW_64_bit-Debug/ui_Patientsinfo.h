@@ -12,78 +12,68 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDialog>
-#include <QtWidgets/QGroupBox>
+#include <QtWidgets/QFrame>
 #include <QtWidgets/QLabel>
-#include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
+#include <QtWidgets/QTextBrowser>
 
 QT_BEGIN_NAMESPACE
 
 class Ui_patientsinfo
 {
 public:
-    QGroupBox *groupBox;
-    QLabel *label_6;
-    QLineEdit *txt_id;
-    QLabel *label_7;
-    QLineEdit *txt_name;
-    QLabel *label_8;
-    QLineEdit *txt_surname;
-    QLabel *label_9;
-    QLineEdit *txt_age;
-    QLabel *label_10;
-    QLineEdit *txt_phone;
-    QPushButton *pushButton;
-    QPushButton *pushButton_2;
     QLabel *label_sec_status;
+    QPushButton *pushButton_2;
+    QPushButton *pushButton_3;
+    QLabel *label_4;
+    QFrame *line;
+    QTextBrowser *textBrowser;
+    QLabel *label;
 
     void setupUi(QDialog *patientsinfo)
     {
         if (patientsinfo->objectName().isEmpty())
             patientsinfo->setObjectName("patientsinfo");
         patientsinfo->resize(858, 555);
-        groupBox = new QGroupBox(patientsinfo);
-        groupBox->setObjectName("groupBox");
-        groupBox->setGeometry(QRect(230, 44, 491, 421));
-        label_6 = new QLabel(groupBox);
-        label_6->setObjectName("label_6");
-        label_6->setGeometry(QRect(14, 49, 16, 20));
-        txt_id = new QLineEdit(groupBox);
-        txt_id->setObjectName("txt_id");
-        txt_id->setGeometry(QRect(86, 49, 251, 28));
-        label_7 = new QLabel(groupBox);
-        label_7->setObjectName("label_7");
-        label_7->setGeometry(QRect(14, 96, 40, 20));
-        txt_name = new QLineEdit(groupBox);
-        txt_name->setObjectName("txt_name");
-        txt_name->setGeometry(QRect(86, 96, 251, 28));
-        label_8 = new QLabel(groupBox);
-        label_8->setObjectName("label_8");
-        label_8->setGeometry(QRect(14, 143, 58, 20));
-        txt_surname = new QLineEdit(groupBox);
-        txt_surname->setObjectName("txt_surname");
-        txt_surname->setGeometry(QRect(86, 143, 251, 28));
-        label_9 = new QLabel(groupBox);
-        label_9->setObjectName("label_9");
-        label_9->setGeometry(QRect(14, 190, 27, 20));
-        txt_age = new QLineEdit(groupBox);
-        txt_age->setObjectName("txt_age");
-        txt_age->setGeometry(QRect(86, 190, 251, 28));
-        label_10 = new QLabel(groupBox);
-        label_10->setObjectName("label_10");
-        label_10->setGeometry(QRect(14, 237, 65, 20));
-        txt_phone = new QLineEdit(groupBox);
-        txt_phone->setObjectName("txt_phone");
-        txt_phone->setGeometry(QRect(86, 237, 251, 28));
-        pushButton = new QPushButton(groupBox);
-        pushButton->setObjectName("pushButton");
-        pushButton->setGeometry(QRect(110, 370, 101, 31));
-        pushButton_2 = new QPushButton(groupBox);
-        pushButton_2->setObjectName("pushButton_2");
-        pushButton_2->setGeometry(QRect(400, 370, 83, 29));
         label_sec_status = new QLabel(patientsinfo);
         label_sec_status->setObjectName("label_sec_status");
         label_sec_status->setGeometry(QRect(120, 450, 63, 20));
+        pushButton_2 = new QPushButton(patientsinfo);
+        pushButton_2->setObjectName("pushButton_2");
+        pushButton_2->setGeometry(QRect(500, 300, 261, 71));
+        QFont font;
+        font.setPointSize(10);
+        pushButton_2->setFont(font);
+        pushButton_3 = new QPushButton(patientsinfo);
+        pushButton_3->setObjectName("pushButton_3");
+        pushButton_3->setGeometry(QRect(500, 160, 261, 71));
+        pushButton_3->setFont(font);
+        label_4 = new QLabel(patientsinfo);
+        label_4->setObjectName("label_4");
+        label_4->setGeometry(QRect(240, 10, 341, 41));
+        QFont font1;
+        font1.setPointSize(13);
+        font1.setBold(true);
+        font1.setUnderline(true);
+        label_4->setFont(font1);
+        line = new QFrame(patientsinfo);
+        line->setObjectName("line");
+        line->setGeometry(QRect(360, 140, 20, 321));
+        line->setFrameShape(QFrame::VLine);
+        line->setFrameShadow(QFrame::Sunken);
+        textBrowser = new QTextBrowser(patientsinfo);
+        textBrowser->setObjectName("textBrowser");
+        textBrowser->setGeometry(QRect(40, 220, 301, 111));
+        QFont font2;
+        font2.setPointSize(11);
+        textBrowser->setFont(font2);
+        label = new QLabel(patientsinfo);
+        label->setObjectName("label");
+        label->setGeometry(QRect(650, 460, 191, 51));
+        QFont font3;
+        font3.setPointSize(12);
+        font3.setBold(true);
+        label->setFont(font3);
 
         retranslateUi(patientsinfo);
 
@@ -93,15 +83,17 @@ public:
     void retranslateUi(QDialog *patientsinfo)
     {
         patientsinfo->setWindowTitle(QCoreApplication::translate("patientsinfo", "Dialog", nullptr));
-        groupBox->setTitle(QCoreApplication::translate("patientsinfo", "GroupBox", nullptr));
-        label_6->setText(QCoreApplication::translate("patientsinfo", "ID", nullptr));
-        label_7->setText(QCoreApplication::translate("patientsinfo", "Name", nullptr));
-        label_8->setText(QCoreApplication::translate("patientsinfo", "Surname", nullptr));
-        label_9->setText(QCoreApplication::translate("patientsinfo", "Age", nullptr));
-        label_10->setText(QCoreApplication::translate("patientsinfo", "Phone no.", nullptr));
-        pushButton->setText(QCoreApplication::translate("patientsinfo", "save", nullptr));
-        pushButton_2->setText(QCoreApplication::translate("patientsinfo", "NEXT", nullptr));
         label_sec_status->setText(QCoreApplication::translate("patientsinfo", "Text label", nullptr));
+        pushButton_2->setText(QCoreApplication::translate("patientsinfo", "Records", nullptr));
+        pushButton_3->setText(QCoreApplication::translate("patientsinfo", "Emergency", nullptr));
+        label_4->setText(QCoreApplication::translate("patientsinfo", "Hospital Management System", nullptr));
+        textBrowser->setHtml(QCoreApplication::translate("patientsinfo", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"justify\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt;\">Welcome Everyone!!! Hospital Management System helps to keep records and help the patients in emergency. The documents or information can also be managed and sent to the respective person in case of emergency.</span></p></body></html>", nullptr));
+        label->setText(QCoreApplication::translate("patientsinfo", "Admin Dashboard", nullptr));
     } // retranslateUi
 
 };

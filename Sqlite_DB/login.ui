@@ -149,22 +149,6 @@
      </property>
     </widget>
    </widget>
-   <widget class="QLabel" name="label_pic">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>60</y>
-      <width>301</width>
-      <height>361</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>../../../Downloads/neon-aesthetic-17.jpg</pixmap>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
@@ -183,6 +167,19 @@
     </property>
     <property name="text">
      <string>Hospital Management System</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_pic">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>100</y>
+      <width>301</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
     </property>
    </widget>
   </widget>

@@ -33,8 +33,8 @@ public:
     QLabel *label_3;
     QLineEdit *lineEdit_username;
     QLineEdit *lineEdit_password;
-    QLabel *label_pic;
     QLabel *label_4;
+    QLabel *label_pic;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -88,10 +88,6 @@ public:
         lineEdit_password->setGeometry(QRect(20, 200, 201, 31));
         lineEdit_password->setFont(font3);
         lineEdit_password->setEchoMode(QLineEdit::Password);
-        label_pic = new QLabel(centralwidget);
-        label_pic->setObjectName("label_pic");
-        label_pic->setGeometry(QRect(30, 60, 301, 361));
-        label_pic->setPixmap(QPixmap(QString::fromUtf8("../../../Downloads/neon-aesthetic-17.jpg")));
         label_4 = new QLabel(centralwidget);
         label_4->setObjectName("label_4");
         label_4->setGeometry(QRect(220, 20, 341, 41));
@@ -100,6 +96,9 @@ public:
         font4.setBold(true);
         font4.setUnderline(true);
         label_4->setFont(font4);
+        label_pic = new QLabel(centralwidget);
+        label_pic->setObjectName("label_pic");
+        label_pic->setGeometry(QRect(50, 100, 301, 331));
         Login->setCentralWidget(centralwidget);
         menubar = new QMenuBar(Login);
         menubar->setObjectName("menubar");
@@ -122,8 +121,8 @@ public:
         pushButton->setText(QCoreApplication::translate("Login", "Login", nullptr));
         label_2->setText(QCoreApplication::translate("Login", "Username", nullptr));
         label_3->setText(QCoreApplication::translate("Login", "Password", nullptr));
-        label_pic->setText(QString());
         label_4->setText(QCoreApplication::translate("Login", "Hospital Management System", nullptr));
+        label_pic->setText(QCoreApplication::translate("Login", "TextLabel", nullptr));
     } // retranslateUi
 
 };
