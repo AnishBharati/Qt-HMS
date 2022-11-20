@@ -2,7 +2,7 @@
 #define patientsinfo_H
 
 #include <QDialog>
-#include"login.h"
+//#include"login.h"
 namespace Ui {
 class patientsinfo;
 }
