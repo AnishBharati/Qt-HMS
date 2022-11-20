@@ -17,11 +17,17 @@ Record::~Record()
 
 
 
-void Record::on_radioButton_clicked()
+
+
+void Record::on_pushButton_1_clicked()
 {
+    if(ui->radioButton->isChecked())
+    {
     this->hide();
-    secDialog Second;
-    Second.setModal(true);
-    Second.exec();
+    secDialog secdialog;
+    secdialog.setModal(true);
+    secdialog.exec();
+    }
+
 }
 

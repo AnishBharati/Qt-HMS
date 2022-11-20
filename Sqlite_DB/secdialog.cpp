@@ -1,7 +1,7 @@
 #include "secdialog.h"
 #include "ui_secdialog.h"
 #include<QMessageBox>
-
+#include<QSortFilterProxyModel>
 secDialog::secDialog(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::secDialog)
@@ -68,5 +68,48 @@ void secDialog::on_pushButton_2_clicked()
     patientsinfo Patientsinfo;
     Patientsinfo.setModal(true);
     Patientsinfo.exec();
+}
+
+
+void secDialog::on_pushButton_3_clicked()
+{
+    Login conn;
+    QSqlQueryModel * modal1=new QSqlQueryModel();
+
+    conn.connOpen();
+    QSqlQuery* qry=new QSqlQuery(conn.mydb);
+    qry->prepare("select * from patientsinfo");
+    qry->exec();
+    modal1->setQuery(*qry);
+
+    proxyPersonas=new QSortFilterProxyModel(this);
+    proxyPersonas->setSourceModel(modal1);
+    proxyPersonas->setFilterCaseSensitivity(Qt::CaseInsensitive);
+    proxyPersonas->setFilterKeyColumn(-1);
+    //proxyPersonas->setFilterFixedString("ko");
+
+    ui->cbColumnas->addItems(QStringList()<<"ID"<<"Name"<<"Surname"<<"Age"<<"Phone");
+
+
+    ui->tableView->setModel(proxyPersonas);
+
+
+    conn.connClose();
+    qDebug() <<(proxyPersonas->rowCount());
+
+
+}
+
+
+
+void secDialog::on_lineEdit_textChanged(const QString &arg1)
+{
+proxyPersonas->setFilterFixedString(arg1);
+}
+
+
+void secDialog::on_cbColumnas_currentIndexChanged(int index)
+{
+        proxyPersonas->setFilterKeyColumn(index);
 }
 

@@ -4,6 +4,7 @@
 
 #include <QDialog>
 #include"Patientsinfo.h"
+#include<QSortFilterProxyModel>
 namespace Ui {
 class secDialog;
 }
@@ -15,11 +16,18 @@ class secDialog : public QDialog
 public:
     explicit secDialog(QWidget *parent = nullptr);
     ~secDialog();
+    QSortFilterProxyModel *proxyPersonas;
 
 private slots:
     void on_pushButton_clicked();
 
     void on_pushButton_2_clicked();
+
+    void on_pushButton_3_clicked();
+
+    void on_lineEdit_textChanged(const QString &arg1);
+
+    void on_cbColumnas_currentIndexChanged(int index);
 
 private:
     Ui::secDialog *ui;
