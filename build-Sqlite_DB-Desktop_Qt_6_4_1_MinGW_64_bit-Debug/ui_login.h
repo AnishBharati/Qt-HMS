@@ -61,7 +61,7 @@ public:
         groupBox->setFont(font1);
         pushButton = new QPushButton(groupBox);
         pushButton->setObjectName("pushButton");
-        pushButton->setGeometry(QRect(120, 270, 83, 29));
+        pushButton->setGeometry(QRect(120, 270, 111, 31));
         QFont font2;
         font2.setPointSize(10);
         font2.setBold(true);
@@ -87,6 +87,7 @@ public:
         lineEdit_password->setObjectName("lineEdit_password");
         lineEdit_password->setGeometry(QRect(20, 200, 201, 31));
         lineEdit_password->setFont(font3);
+        lineEdit_password->setEchoMode(QLineEdit::Password);
         label_pic = new QLabel(centralwidget);
         label_pic->setObjectName("label_pic");
         label_pic->setGeometry(QRect(30, 60, 301, 361));
