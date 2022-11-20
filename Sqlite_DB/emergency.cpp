@@ -58,3 +58,12 @@ void emergency::on_cbColumnas_currentIndexChanged(int index)
     proxyPersonas->setFilterKeyColumn(index);
 }
 
+
+void emergency::on_pushButton_back_clicked()
+{
+    this->hide();
+    patientsinfo Patientsinfo;
+    Patientsinfo.setModal(true);
+    Patientsinfo.exec();
+}
+

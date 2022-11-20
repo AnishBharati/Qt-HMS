@@ -23,6 +23,8 @@ private slots:
 
     void on_cbColumnas_currentIndexChanged(int index);
 
+    void on_pushButton_back_clicked();
+
 private:
     Ui::emergency *ui;
 };

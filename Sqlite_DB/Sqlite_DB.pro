@@ -13,18 +13,21 @@ SOURCES += \
     emergency.cpp \
     main.cpp \
     login.cpp \
+    record.cpp \
     secdialog.cpp
 
 HEADERS += \
     Patientsinfo.h \
     emergency.h \
     login.h \
+    record.h \
     secdialog.h
 
 FORMS += \
     Patientsinfo.ui \
     emergency.ui \
     login.ui \
+    record.ui \
     secdialog.ui
 
 # Default rules for deployment.

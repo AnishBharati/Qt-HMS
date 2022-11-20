@@ -3,6 +3,8 @@
 #include<QMessageBox>
 #include"secdialog.h"
 #include"emergency.h"
+
+#include"record.h"
 patientsinfo::patientsinfo(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::patientsinfo)
@@ -65,17 +67,17 @@ void patientsinfo::on_pushButton_clicked()
 void patientsinfo::on_pushButton_2_clicked()
 {
     this->hide();
-    secDialog secdialog;
-    secdialog.setModal(true);
-    secdialog.exec();
+    Record record;
+    record.setModal(true);
+    record.exec();
 }
 
 
 void patientsinfo::on_pushButton_3_clicked()
 {
     this->hide();
-    emergency emergency;
-    emergency.setModal(true);
-    emergency.exec();
+    emergency Emergency;
+    Emergency.setModal(true);
+    Emergency.exec();
 }
 
