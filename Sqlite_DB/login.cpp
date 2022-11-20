@@ -1,6 +1,6 @@
 #include "login.h"
 #include "Patientsinfo.h"
-#include "ui_login.h"
+#include "./ui_login.h"
 #include<QPixmap>
 Login::Login(QWidget *parent)
     : QMainWindow(parent)
