@@ -498,10 +498,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Sqlite_DB-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\ui_secdialog.h"
+        "C:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Sqlite_DB-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\ui_Patientsinfo.h"
     ],
     "directory": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/build-Sqlite_DB-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/build-Sqlite_DB-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/ui_secdialog.h"
+    "file": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/build-Sqlite_DB-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/ui_Patientsinfo.h"
 },
 {
     "arguments": [
@@ -561,10 +561,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Sqlite_DB-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\ui_Patientsinfo.h"
+        "C:\\Users\\Suraj\\Documents\\Coding\\Project\\GitHub\\Qt-HMS\\build-Sqlite_DB-Desktop_Qt_6_4_1_MinGW_64_bit-Debug\\ui_secdialog.h"
     ],
     "directory": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/build-Sqlite_DB-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/build-Sqlite_DB-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/ui_Patientsinfo.h"
+    "file": "C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/build-Sqlite_DB-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/ui_secdialog.h"
 },
 {
     "arguments": [
