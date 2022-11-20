@@ -22,7 +22,7 @@ patientsinfo::~patientsinfo()
 
 void patientsinfo::on_pushButton_clicked()
 {
-    Login conn;
+   /* Login conn;
     QString id,name,surname,age,phone;
     id=ui->txt_id->text();
     name=ui->txt_name->text();
@@ -59,8 +59,8 @@ void patientsinfo::on_pushButton_clicked()
 
         }
 }
-
-
+*/
+}
 void patientsinfo::on_pushButton_2_clicked()
 {
     this->hide();
