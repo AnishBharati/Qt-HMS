@@ -3,7 +3,7 @@
 
 
 #include <QDialog>
-#include"Patientsinfo.h"
+#include"login.h"
 namespace Ui {
 class secDialog;
 }

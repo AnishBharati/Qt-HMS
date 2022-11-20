@@ -6,7 +6,7 @@
 #include<QtSql>
 #include<QtDebug>
 #include<QFileInfo>
-#include"Patientsinfo.h"
+//#include"Patientsinfo.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Login; }
@@ -25,7 +25,7 @@ class Login : public QMainWindow
         bool connOpen()
         {
             mydb=QSqlDatabase::addDatabase("QSQLITE");
-           mydb.setDatabaseName("C:/Users/jackq/Desktop/QT LOGIN SQLite3/Sqlite_DB/Database.db");
+           mydb.setDatabaseName("C:/Users/Suraj/Documents/Coding/Project/GitHub/Qt-HMS/Sqlite_DB/Database.db");
 
            if(!mydb.open()){
                    qDebug()<<("failed to open");
