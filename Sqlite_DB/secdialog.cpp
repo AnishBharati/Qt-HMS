@@ -1,6 +1,7 @@
 #include "secdialog.h"
 #include "ui_secdialog.h"
 #include<QMessageBox>
+#include"record.h"
 #include<QSortFilterProxyModel>
 secDialog::secDialog(QWidget *parent) :
     QDialog(parent),
@@ -65,9 +66,9 @@ void secDialog::on_pushButton_clicked()
 void secDialog::on_pushButton_2_clicked()
 {
     this->hide();
-    patientsinfo Patientsinfo;
-    Patientsinfo.setModal(true);
-    Patientsinfo.exec();
+    Record record;
+    record.setModal(true);
+    record.exec();
 }
 
 

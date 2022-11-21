@@ -58,6 +58,7 @@ void Login::on_pushButton_clicked()
                     ui->label->setText("Duplicate username and password ");
             if(count<1)
                     ui->label->setText("username and password is not correct ");
+
         }
 
 }
