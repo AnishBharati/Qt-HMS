@@ -14,7 +14,7 @@ class emergency : public QDialog
 public:
     explicit emergency(QWidget *parent = nullptr);
     ~emergency();
-    QSortFilterProxyModel *proxyPersonas;
+    QSortFilterProxyModel *proxyPersonas1;
 
 private slots:
     void on_pushButton_load_table_clicked();

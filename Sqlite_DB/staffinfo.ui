@@ -158,18 +158,18 @@
      <rect>
       <x>10</x>
       <y>290</y>
-      <width>71</width>
+      <width>91</width>
       <height>21</height>
      </rect>
     </property>
     <property name="text">
-     <string>Specialist:</string>
+     <string>Department</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="txt_phone_2">
     <property name="geometry">
      <rect>
-      <x>90</x>
+      <x>120</x>
       <y>290</y>
       <width>251</width>
       <height>28</height>
@@ -188,6 +188,75 @@
    </property>
    <property name="text">
     <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_third">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>540</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>60</y>
+     <width>461</width>
+     <height>491</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cbColumnas">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>20</y>
+     <width>82</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>560</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>LOAD TABLE</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>20</y>
+     <width>341</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>20</y>
+     <width>63</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Search:</string>
    </property>
   </widget>
  </widget>

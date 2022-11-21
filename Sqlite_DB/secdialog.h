@@ -16,7 +16,7 @@ class secDialog : public QDialog
 public:
     explicit secDialog(QWidget *parent = nullptr);
     ~secDialog();
-    QSortFilterProxyModel *proxyPersonas;
+    QSortFilterProxyModel *proxyPersonas2;
 
 private slots:
     void on_pushButton_clicked();

@@ -55,3 +55,12 @@ void Record::on_pushButton_1_clicked()
 
 }
 
+
+void Record::on_pushButton_2_clicked()
+{
+    this->hide();
+    patientsinfo patientsinfo;
+    patientsinfo.setModal(true);
+    patientsinfo.exec();
+}
+

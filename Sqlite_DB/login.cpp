@@ -7,7 +7,7 @@ Login::Login(QWidget *parent)
     , ui(new Ui::Login)
 {
     ui->setupUi(this);
-    QPixmap login("C:/Users/Suraj/Downloads/login.png");
+    QPixmap login("C:/Users/jackq/Desktop/FINAL QT PROJECT/Sqlite_DB/log.png");
     ui->label_pic->setPixmap(login);
 
     if(!connOpen())

@@ -2,6 +2,7 @@
 #define NURSEINFO_H
 
 #include <QDialog>
+#include<QSortFilterProxyModel>
 
 namespace Ui {
 class NurseInfo;
@@ -14,9 +15,18 @@ class NurseInfo : public QDialog
 public:
     explicit NurseInfo(QWidget *parent = nullptr);
     ~NurseInfo();
+    QSortFilterProxyModel * proxyPersonas;
 
 private slots:
     void on_pushButton_2_clicked();
+
+    void on_pushButton_clicked();
+
+    void on_pushButton_3_clicked();
+
+    void on_cbColumnas_currentIndexChanged(int index);
+
+    void on_lineEdit_textChanged(const QString &arg1);
 
 private:
     Ui::NurseInfo *ui;

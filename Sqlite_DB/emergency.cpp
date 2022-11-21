@@ -20,42 +20,42 @@ emergency::~emergency()
 void emergency::on_pushButton_load_table_clicked()
 {
     Login conn;
-    QSqlQueryModel * modal=new QSqlQueryModel();
+    QSqlQueryModel * modal100=new QSqlQueryModel();
 
     conn.connOpen();
     QSqlQuery* qry=new QSqlQuery(conn.mydb);
     qry->prepare("select * from doctorsinfo");
     qry->exec();
-    modal->setQuery(*qry);
+    modal100->setQuery(*qry);
 
 
 
-    proxyPersonas=new QSortFilterProxyModel(this);
-    proxyPersonas->setSourceModel(modal);
-    proxyPersonas->setFilterCaseSensitivity(Qt::CaseInsensitive);
-    proxyPersonas->setFilterKeyColumn(-1);
-    //proxyPersonas->setFilterFixedString("ko");
+    proxyPersonas1=new QSortFilterProxyModel(this);
+    proxyPersonas1->setSourceModel(modal100);
+    proxyPersonas1->setFilterCaseSensitivity(Qt::CaseInsensitive);
+    proxyPersonas1->setFilterKeyColumn(-1);
+    //proxyPersonas1->setFilterFixedString("ko");
 
-    ui->cbColumnas->addItems(QStringList()<<"ID"<<"Name"<<"Phone"<<"Email"<<"Expert of");
+    ui->cbColumnas->addItems(QStringList()<<"ID"<<"Name"<<"Phone"<<"Email"<<"Specialist");
 
 
-    ui->tableView->setModel(proxyPersonas);
+    ui->tableView->setModel(proxyPersonas1);
 
 
     conn.connClose();
-    qDebug() <<(proxyPersonas->rowCount());
+    qDebug() <<(proxyPersonas1->rowCount());
 }
 
 
 void emergency::on_lineEdit_textChanged(const QString &arg1)
 {
-   proxyPersonas->setFilterFixedString(arg1);
+   proxyPersonas1->setFilterFixedString(arg1);
 }
 
 
 void emergency::on_cbColumnas_currentIndexChanged(int index)
 {
-    proxyPersonas->setFilterKeyColumn(index);
+    proxyPersonas1->setFilterKeyColumn(index);
 }
 
 

@@ -2,6 +2,7 @@
 #define STAFFINFO_H
 
 #include <QDialog>
+#include<QSortFilterProxyModel>
 
 namespace Ui {
 class StaffInfo;
@@ -15,8 +16,18 @@ public:
     explicit StaffInfo(QWidget *parent = nullptr);
     ~StaffInfo();
 
+    QSortFilterProxyModel *  proxyPersonas;
+
 private slots:
     void on_pushButton_2_clicked();
+
+    void on_pushButton_clicked();
+
+    void on_pushButton_3_clicked();
+
+    void on_lineEdit_textChanged(const QString &arg1);
+
+    void on_cbColumnas_currentIndexChanged(int index);
 
 private:
     Ui::StaffInfo *ui;

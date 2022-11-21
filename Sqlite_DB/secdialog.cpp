@@ -50,7 +50,7 @@ void secDialog::on_pushButton_clicked()
          // qry.bindValue(":Phone", phone);
         if(qry.exec())
         {
-        QMessageBox::critical(this,tr("Save"),tr("Saved"));
+        QMessageBox::information(this,tr("Save"),tr("Saved"));
         conn.connClose();
         }
         else
@@ -83,20 +83,20 @@ void secDialog::on_pushButton_3_clicked()
     qry->exec();
     modal1->setQuery(*qry);
 
-    proxyPersonas=new QSortFilterProxyModel(this);
-    proxyPersonas->setSourceModel(modal1);
-    proxyPersonas->setFilterCaseSensitivity(Qt::CaseInsensitive);
-    proxyPersonas->setFilterKeyColumn(-1);
-    //proxyPersonas->setFilterFixedString("ko");
+    proxyPersonas2=new QSortFilterProxyModel(this);
+    proxyPersonas2->setSourceModel(modal1);
+    proxyPersonas2->setFilterCaseSensitivity(Qt::CaseInsensitive);
+    proxyPersonas2->setFilterKeyColumn(-1);
+    //proxyPersonas2->setFilterFixedString("ko");
 
     ui->cbColumnas->addItems(QStringList()<<"ID"<<"Name"<<"Surname"<<"Age"<<"Phone");
 
 
-    ui->tableView->setModel(proxyPersonas);
+    ui->tableView->setModel(proxyPersonas2);
 
 
     conn.connClose();
-    qDebug() <<(proxyPersonas->rowCount());
+    qDebug() <<(proxyPersonas2->rowCount());
 
 
 }
@@ -105,12 +105,12 @@ void secDialog::on_pushButton_3_clicked()
 
 void secDialog::on_lineEdit_textChanged(const QString &arg1)
 {
-proxyPersonas->setFilterFixedString(arg1);
+proxyPersonas2->setFilterFixedString(arg1);
 }
 
 
 void secDialog::on_cbColumnas_currentIndexChanged(int index)
 {
-        proxyPersonas->setFilterKeyColumn(index);
+        proxyPersonas2->setFilterKeyColumn(index);
 }
 
