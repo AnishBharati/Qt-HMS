@@ -1,47 +1,36 @@
-#include "nurseinfo.h"
-#include "ui_nurseinfo.h"
+#include "doctorinfo.h"
+#include "ui_doctorinfo.h"
 #include"record.h"
 #include"login.h"
-#include<QMessageBox>
-#include<QSortFilterProxyModel>
-#include<QPixmap>
-NurseInfo::NurseInfo(QWidget *parent) :
+Doctorinfo::Doctorinfo(QWidget *parent) :
     QDialog(parent),
-    ui(new Ui::NurseInfo)
+    ui(new Ui::Doctorinfo)
 {
     ui->setupUi(this);
-
-    Login conn;
-     if(!conn.connOpen())
-             ui->label_sec_status->setText("failed to open");
-             else
-            ui->label_sec_status->setText("connected");
 }
 
-NurseInfo::~NurseInfo()
+Doctorinfo::~Doctorinfo()
 {
     delete ui;
 }
-
-void NurseInfo::on_pushButton_2_clicked()
+void Doctorinfo::on_pushButton_4_clicked()
 {
     this->hide();
     Record record;
     record.setModal(true);
     record.exec();
 }
-
-
-void NurseInfo::on_pushButton_clicked()
+void Doctorinfo::on_pushButton_11_clicked()
 {
     Login conn;
-    QString id,name,surname,age,phone,dept;
+    QString id,name,age,phone,email,specialist;
     id=ui->txt_id->text();
     name=ui->txt_name->text();
-    surname=ui->txt_surname->text();
+    //surname=ui->txt_surname->text();
     age=ui->txt_age->text();
  phone=ui->txt_phone->text();
- dept=ui->txt_department->text();
+ email=ui->txt_phone_3->text();
+ specialist=ui->txt_phone_2->text();
    //  phone=ui->txt_phone->text();
     if(!conn.connOpen()){
 
@@ -53,15 +42,15 @@ void NurseInfo::on_pushButton_clicked()
 
         QSqlQuery qry;
        // qry.prepare("insert into patientsinfo(ID,Name,Surname,Age,Phone) values ('"+id+"','"+name+"','"+surname+"','"+age+"','"+phone+"')");
-        qry.prepare("INSERT INTO nurseinfo (ID,Name,Surname,Age,Phone,Department) VALUES (:ID, :Name, :Surname,:Age,:Phone,:Department)");
+        qry.prepare("INSERT INTO doctorsinfo (ID,Name,Age,Phone,Email,Specialist) VALUES (:ID, :Name,:Age,:Phone,:Email,:Specialist)");
 
         qry.bindValue(":ID", id);
         qry.bindValue(":Name", name);
-        qry.bindValue(":Surname", surname);
+       // qry.bindValue(":Surname", surname);
          qry.bindValue(":Age", age);
          qry.bindValue(":Phone", phone);
-         qry.bindValue(":Department", dept);
-
+         qry.bindValue(":Email", email);
+         qry.bindValue(":Specialist", specialist);
          // qry.bindValue(":Phone", phone);
         if(qry.exec())
         {
@@ -75,26 +64,26 @@ void NurseInfo::on_pushButton_clicked()
         }
 }
 
-
-void NurseInfo::on_pushButton_3_clicked()
+void Doctor::on_pushButton_3_clicked()
 {
+
     Login conn;
-    QSqlQueryModel * modal19=new QSqlQueryModel();
+    QSqlQueryModel *modal32=new QSqlQueryModel();
 
     conn.connOpen();
     QSqlQuery* qry=new QSqlQuery(conn.mydb);
-    qry->prepare("select * from nurseinfo");
+    qry->prepare("select * from doctorsinfo");
     qry->exec();
-    modal19->setQuery(*qry);
+    modal32->setQuery(*qry);
 
     proxyPersonas=new QSortFilterProxyModel(this);
-    proxyPersonas->setSourceModel(modal19);
+    proxyPersonas->setSourceModel(modal32);
     proxyPersonas->setFilterCaseSensitivity(Qt::CaseInsensitive);
     proxyPersonas->setFilterKeyColumn(-1);
     //proxyPersonas->setFilterFixedString("ko");
 
-    ui->cbColumnas->addItems(QStringList()<<"ID"<<"Name"<<"Surname"<<"Age"<<"Phone"<<"Department");
 
+ui->cbColumnas->addItems(QStringList()<<"ID"<<"Name"<<"Email"<<"Age"<<"Phone"<<"Specialist");
 
     ui->tableView->setModel(proxyPersonas);
 
@@ -106,15 +95,16 @@ void NurseInfo::on_pushButton_3_clicked()
 }
 
 
-
-void NurseInfo::on_cbColumnas_currentIndexChanged(int index)
+void Doctorinfo::on_lineEdit_textChanged(const QString &arg1)
 {
-    proxyPersonas->setFilterKeyColumn(index);
+    proxyPersonas->setFilterFixedString(arg1);
 }
 
 
-void NurseInfo::on_lineEdit_textChanged(const QString &arg1)
+void Doctorinfo::on_cbColumnas_currentIndexChanged(int index)
 {
-    proxyPersonas->setFilterFixedString(arg1);
+     //ui->cbColumnas->addItems(QStringList()<<"ID"<<"Name"<<"Email"<<"Age"<<"Phone"<<"Specialist");
+    proxyPersonas->setFilterKeyColumn(index);
+
 }
 

@@ -3,6 +3,7 @@
 
 #include <QDialog>
 #include<QSortFilterProxyModel>
+#include"login.h"
 namespace Ui {
 class emergency;
 }
@@ -24,6 +25,8 @@ private slots:
     void on_cbColumnas_currentIndexChanged(int index);
 
     void on_pushButton_back_clicked();
+
+    void on_pushButton_clicked();
 
 private:
     Ui::emergency *ui;
