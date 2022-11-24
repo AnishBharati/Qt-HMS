@@ -1,6 +1,6 @@
 #ifndef patientsinfo_H
 #define patientsinfo_H
-
+#include<QIcon>
 #include <QDialog>
 #include"login.h"
 namespace Ui {

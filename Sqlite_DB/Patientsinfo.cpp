@@ -3,15 +3,16 @@
 #include<QMessageBox>
 #include"secdialog.h"
 #include"emergency.h"
-#include<QPixmap>
-#include<QDebug>
 #include<QIcon>
+
 #include"record.h"
 patientsinfo::patientsinfo(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::patientsinfo)
 {
     ui->setupUi(this);
+    ui->pushButton_3->setIcon(QIcon("‪C:/Users/jackq/Desktop/FINAL QT PROJECT/PICTURES/emergency.png"));
+    ui->pushButton_3->setCheckable(true);
    Login conn;
     if(!conn.connOpen())
             ui->label_sec_status->setText("failed to open");
@@ -66,8 +67,13 @@ void patientsinfo::on_pushButton_clicked()
 }
 */
 }
-
-
+void patientsinfo::on_pushButton_2_clicked()
+{
+    this->hide();
+    Record record;
+    record.setModal(true);
+    record.exec();
+}
 
 
 void patientsinfo::on_pushButton_3_clicked()
@@ -77,14 +83,15 @@ void patientsinfo::on_pushButton_3_clicked()
     Emergency.setModal(true);
     Emergency.exec();
 }
-
-
-
-void patientsinfo::on_pushButton_2_clicked()
+void patientsinfo::on_pushButton_3_toggled(bool checked)
 {
-    this->hide();
-    Record record;
-    record.setModal(true);
-    record.exec();
-}
+    if(checked){
+        ui->pushButton_3->setIcon(QIcon("‪‪C:/Users/jackq/Desktop/FINAL QT PROJECT/PICTURES/emergency.png"));
+        qDebug()<<"Button Checked";
+    }
+    else{
+        ui->pushButton_3->setIcon(QIcon("‪C:/Users/jackq/Desktop/FINAL QT PROJECT/PICTURES/emergency.png"));
+        qDebug()<<"Button is unchecked";
+    }
 
+}

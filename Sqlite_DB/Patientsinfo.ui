@@ -11,16 +11,21 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Hospital Management System</string>
+   <string>Dialog</string>
   </property>
   <widget class="QLabel" name="label_sec_status">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>590</y>
-     <width>63</width>
+     <x>130</x>
+     <y>570</y>
+     <width>141</width>
      <height>20</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+    </font>
    </property>
    <property name="text">
     <string>Text label</string>
@@ -29,81 +34,57 @@
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>700</x>
-     <y>340</y>
+     <x>720</x>
+     <y>330</y>
      <width>221</width>
      <height>191</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="icon">
-    <iconset>
-     <normaloff>../../../store.png</normaloff>
-     <selectedoff>../../../../Documents/store.png</selectedoff>../../../store.png</iconset>
-   </property>
-   <property name="iconSize">
-    <size>
-     <width>180</width>
-     <height>180</height>
-    </size>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushButton_3">
-   <property name="geometry">
-    <rect>
-     <x>700</x>
-     <y>90</y>
-     <width>221</width>
-     <height>191</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="icon">
-    <iconset>
-     <normaloff>../../../../Documents/emergency.png</normaloff>
-     <selectedoff>../../../../Documents/emergency.png</selectedoff>../../../../Documents/emergency.png</iconset>
-   </property>
-   <property name="iconSize">
-    <size>
-     <width>180</width>
-     <height>180</height>
-    </size>
-   </property>
-   <property name="shortcut">
-    <string notr="true"/>
-   </property>
-   <property name="checkable">
-    <bool>true</bool>
-   </property>
-   <property name="autoRepeat">
-    <bool>true</bool>
-   </property>
-   <property name="autoExclusive">
-    <bool>true</bool>
-   </property>
-   <property name="default">
-    <bool>false</bool>
-   </property>
-   <property name="flat">
-    <bool>false</bool>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_4">
-   <property name="geometry">
-    <rect>
-     <x>380</x>
-     <y>20</y>
-     <width>341</width>
-     <height>41</height>
     </rect>
    </property>
    <property name="font">
     <font>
      <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Records</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>100</y>
+     <width>221</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Emergency</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>221</width>
+     <height>191</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>20</y>
+     <width>411</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>17</pointsize>
      <bold>true</bold>
      <underline>true</underline>
     </font>
@@ -115,10 +96,10 @@
   <widget class="Line" name="line">
    <property name="geometry">
     <rect>
-     <x>533</x>
-     <y>100</y>
+     <x>590</x>
+     <y>90</y>
      <width>20</width>
-     <height>471</height>
+     <height>481</height>
     </rect>
    </property>
    <property name="orientation">
@@ -128,26 +109,31 @@
   <widget class="QTextBrowser" name="textBrowser">
    <property name="geometry">
     <rect>
-     <x>70</x>
-     <y>180</y>
-     <width>291</width>
-     <height>131</height>
+     <x>110</x>
+     <y>140</y>
+     <width>331</width>
+     <height>181</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+    </font>
    </property>
    <property name="html">
     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 hr { height: 1px; border-width: 0; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Hello Everyone. Welcome to our project, Hospital Management System. This project helps you to keep the data of patients and staff and send the information to them in the case of emergency. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Hello Everyone. Welcome to our project, Hospital Management System. This project helps you to keep the data of patients and staff and send the information to them in the case of emergency. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>840</x>
-     <y>610</y>
+     <x>800</x>
+     <y>600</y>
      <width>201</width>
      <height>21</height>
     </rect>

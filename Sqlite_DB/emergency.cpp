@@ -1,19 +1,17 @@
 #include "emergency.h"
 #include "ui_emergency.h"
-//#include"login.h"
+#include"login.h"
 #include<QDebug>
 #include<QStringList>
 #include<QSortFilterProxyModel>
-#include<QPixmap>
-#include<QDesktopServices>
+#include<QUrl>>
+#include<QDesktopServices>>
 #include<QFileDialog>
 emergency::emergency(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::emergency)
 {
     ui->setupUi(this);
-    QPixmap back("‪C:/Users/Suraj/Downloads/alertsystem.jpg");
-    ui->label_2->setPixmap(back);
 }
 
 emergency::~emergency()
@@ -72,20 +70,17 @@ void emergency::on_pushButton_back_clicked()
 }
 
 
-
 void emergency::on_pushButton_clicked()
 {
+QString filename=QFileDialog::getOpenFileName(
+            this,
+            tr("Open file"),
+            "C:/Program Files/Google/Chrome/Application/chrome.exe",
+                "All files (*.*);;Text File (*.txt);;Music File(*.mp3)"
 
-    QString filename=QFileDialog::getOpenFileName(
-                this,
-                tr("Open file"),
-                "C://",
-                    "All files (*.*);;Text File (*.txt);;Music File(*.mp3)"
 
-
-                );
-        QDesktopServices::openUrl(QUrl("file:///"+filename,QUrl::TolerantMode));
-        //QMessageBox::Information()
+            );
+    QDesktopServices::openUrl(QUrl("file:///"+filename,QUrl::TolerantMode));
+    //QMessageBox::Information()
 
 }
-

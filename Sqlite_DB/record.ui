@@ -6,20 +6,20 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1065</width>
-    <height>664</height>
+    <width>1198</width>
+    <height>671</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Record System</string>
+   <string>Dialog</string>
   </property>
   <widget class="QRadioButton" name="radioButton">
    <property name="geometry">
     <rect>
-     <x>740</x>
+     <x>700</x>
      <y>290</y>
-     <width>161</width>
-     <height>71</height>
+     <width>110</width>
+     <height>24</height>
     </rect>
    </property>
    <property name="font">
@@ -30,22 +30,12 @@
    <property name="text">
     <string>Patient</string>
    </property>
-   <property name="icon">
-    <iconset>
-     <normaloff>../../../../Documents/patient.png</normaloff>../../../../Documents/patient.png</iconset>
-   </property>
-   <property name="iconSize">
-    <size>
-     <width>50</width>
-     <height>50</height>
-    </size>
-   </property>
   </widget>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>590</x>
-     <y>100</y>
+     <x>580</x>
+     <y>130</y>
      <width>141</width>
      <height>31</height>
     </rect>
@@ -64,10 +54,10 @@
   <widget class="QPushButton" name="pushButton_1">
    <property name="geometry">
     <rect>
-     <x>440</x>
-     <y>450</y>
-     <width>151</width>
-     <height>51</height>
+     <x>470</x>
+     <y>420</y>
+     <width>121</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="text">
@@ -77,10 +67,10 @@
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>750</x>
-     <y>450</y>
-     <width>151</width>
-     <height>51</height>
+     <x>670</x>
+     <y>420</y>
+     <width>121</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="text">
@@ -90,7 +80,7 @@
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>373</x>
+     <x>280</x>
      <y>20</y>
      <width>341</width>
      <height>41</height>
@@ -111,9 +101,9 @@
    <property name="geometry">
     <rect>
      <x>480</x>
-     <y>170</y>
-     <width>161</width>
-     <height>71</height>
+     <y>210</y>
+     <width>110</width>
+     <height>24</height>
     </rect>
    </property>
    <property name="font">
@@ -124,24 +114,14 @@
    <property name="text">
     <string>Doctor</string>
    </property>
-   <property name="icon">
-    <iconset>
-     <normaloff>../../../../Documents/doctor.png</normaloff>../../../../Documents/doctor.png</iconset>
-   </property>
-   <property name="iconSize">
-    <size>
-     <width>50</width>
-     <height>50</height>
-    </size>
-   </property>
   </widget>
   <widget class="QRadioButton" name="radioButton_9">
    <property name="geometry">
     <rect>
      <x>480</x>
      <y>290</y>
-     <width>161</width>
-     <height>71</height>
+     <width>110</width>
+     <height>24</height>
     </rect>
    </property>
    <property name="font">
@@ -152,24 +132,14 @@
    <property name="text">
     <string>Nurse</string>
    </property>
-   <property name="icon">
-    <iconset>
-     <normaloff>../../../../Documents/nurse.png</normaloff>../../../../Documents/nurse.png</iconset>
-   </property>
-   <property name="iconSize">
-    <size>
-     <width>50</width>
-     <height>50</height>
-    </size>
-   </property>
   </widget>
   <widget class="QRadioButton" name="radioButton_11">
    <property name="geometry">
     <rect>
-     <x>740</x>
-     <y>170</y>
-     <width>161</width>
-     <height>71</height>
+     <x>700</x>
+     <y>210</y>
+     <width>110</width>
+     <height>24</height>
     </rect>
    </property>
    <property name="font">
@@ -180,24 +150,14 @@
    <property name="text">
     <string>Staff</string>
    </property>
-   <property name="icon">
-    <iconset>
-     <normaloff>../../../../Documents/staff.png</normaloff>../../../../Documents/staff.png</iconset>
-   </property>
-   <property name="iconSize">
-    <size>
-     <width>50</width>
-     <height>50</height>
-    </size>
-   </property>
   </widget>
   <widget class="Line" name="line">
    <property name="geometry">
     <rect>
-     <x>370</x>
-     <y>100</y>
+     <x>343</x>
+     <y>120</y>
      <width>20</width>
-     <height>491</height>
+     <height>331</height>
     </rect>
    </property>
    <property name="orientation">
@@ -225,25 +185,6 @@ p, li { white-space: pre-wrap; }
 hr { height: 1px; border-width: 0; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Hello. You are welcome to our recording system. Here you can keep the record of doctor, nurse, patients and staff by clicking in the respective button. If you want to register member of the respective position, then click on it.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_2">
-   <property name="geometry">
-    <rect>
-     <x>790</x>
-     <y>600</y>
-     <width>201</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>11</pointsize>
-     <bold>true</bold>
-    </font>
-   </property>
-   <property name="text">
-    <string>       Admin Dashboard</string>
    </property>
   </widget>
  </widget>

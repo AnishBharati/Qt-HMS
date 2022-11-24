@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Nurse Info</string>
+   <string>Dialog</string>
   </property>
   <widget class="QGroupBox" name="groupBox">
    <property name="geometry">
