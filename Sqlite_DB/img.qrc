@@ -9,5 +9,6 @@
         <file>img/alert.png</file>
         <file>../../../../Documents/patient.png</file>
         <file>../../../../Documents/staff.png</file>
+        <file>../../../login.png</file>
     </qresource>
 </RCC>

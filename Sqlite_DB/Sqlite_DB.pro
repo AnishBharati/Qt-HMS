@@ -11,10 +11,12 @@ CONFIG += c++17
 SOURCES += \
     Patientsinfo.cpp \
     doctor.cpp \
+    doctorlogin.cpp \
     emergency.cpp \
     main.cpp \
     login.cpp \
     nurseinfo.cpp \
+    patientlogin.cpp \
     record.cpp \
     secdialog.cpp \
     staffinfo.cpp
@@ -22,9 +24,11 @@ SOURCES += \
 HEADERS += \
     Patientsinfo.h \
     doctor.h \
+    doctorlogin.h \
     emergency.h \
     login.h \
     nurseinfo.h \
+    patientlogin.h \
     record.h \
     secdialog.h \
     staffinfo.h
@@ -32,9 +36,11 @@ HEADERS += \
 FORMS += \
     Patientsinfo.ui \
     doctor.ui \
+    doctorlogin.ui \
     emergency.ui \
     login.ui \
     nurseinfo.ui \
+    patientlogin.ui \
     record.ui \
     secdialog.ui \
     staffinfo.ui

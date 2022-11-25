@@ -2,6 +2,8 @@
 #include "Patientsinfo.h"
 #include "ui_login.h"
 #include<QPixmap>
+#include"patientlogin.h"
+#include"doctorlogin.h"
 Login::Login(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::Login)
@@ -66,5 +68,24 @@ void Login::on_pushButton_clicked()
 
         }
 
+}
+
+
+void Login::on_pushButton_2_clicked()
+{
+    this->hide();
+    Patientlogin patlogin;
+    patlogin.setModal(true);
+    patlogin.exec();
+}
+
+
+
+void Login::on_pushButton_3_clicked()
+{
+    this->hide();
+    Doctorlogin doclogin;
+    doclogin.setModal(true);
+    doclogin.exec();
 }
 
