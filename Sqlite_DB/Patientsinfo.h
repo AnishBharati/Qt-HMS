@@ -1,6 +1,6 @@
 #ifndef patientsinfo_H
 #define patientsinfo_H
-#include<QIcon>
+
 #include <QDialog>
 #include"login.h"
 namespace Ui {
@@ -24,6 +24,8 @@ private slots:
     void on_pushButton_3_clicked();
 
     void on_pushButton_3_toggled(bool checked);
+
+    void on_pushButtonrecord_clicked();
 
 private:
     Ui::patientsinfo *ui;

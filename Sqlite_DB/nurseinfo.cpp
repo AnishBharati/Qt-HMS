@@ -4,11 +4,13 @@
 #include"login.h"
 #include<QMessageBox>
 #include<QSortFilterProxyModel>
+#include<QPixmap>
 NurseInfo::NurseInfo(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::NurseInfo)
 {
     ui->setupUi(this);
+
     Login conn;
      if(!conn.connOpen())
              ui->label_sec_status->setText("failed to open");

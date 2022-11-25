@@ -6,12 +6,12 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1075</width>
+    <width>1065</width>
     <height>664</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Patient Info</string>
   </property>
   <widget class="QLabel" name="label_third">
    <property name="geometry">

@@ -7,9 +7,14 @@ Login::Login(QWidget *parent)
     , ui(new Ui::Login)
 {
     ui->setupUi(this);
-    QPixmap login("C:/Users/jackq/Desktop/FINAL QT PROJECT/Sqlite_DB/log.png");
-    ui->label_pic->setPixmap(login);
 
+    //QIcon user("C:/Users/Suraj/Documents/login.jfif");
+    //QIcon pass("‪C:/Users/Suraj/Downloads/Qt-HMS-main/Qt-HMS-main/Sqlite_DB/img/password.png");
+    //ui->lineEdit_username->addAction(user, QLineEdit::LeadingPosition);
+    //ui->lineEdit_password->addAction(pass, QLineEdit::LeadingPosition);
+
+    QPixmap login("C:/Users/Suraj/Downloads/login.png");
+    ui->label_pic->setPixmap(login);
     if(!connOpen())
             ui->label->setText("Failed to open Database");
             else
@@ -45,7 +50,7 @@ void Login::on_pushButton_clicked()
                 count++;
             }
             if(count==1){
-                    ui->label->setText("username and password is correct ");
+                    ui->label->setText("Username and Password are correct ");
 
                     connClose();
 
@@ -57,7 +62,7 @@ void Login::on_pushButton_clicked()
             if(count>1)
                     ui->label->setText("Duplicate username and password ");
             if(count<1)
-                    ui->label->setText("username and password is not correct ");
+                    ui->label->setText("Username or Password is incorrect ");
 
         }
 

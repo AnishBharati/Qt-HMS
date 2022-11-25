@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img/password.png</file>
+        <file>img/login.jfif</file>
+        <file>img/nurse.png</file>
+        <file>img/doctor.png</file>
+        <file>img/patient.png</file>
+        <file>img/store.jfif</file>
+        <file>img/alert.png</file>
+        <file>../../../../Documents/patient.png</file>
+        <file>../../../../Documents/staff.png</file>
+    </qresource>
+</RCC>

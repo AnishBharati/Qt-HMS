@@ -3,6 +3,7 @@
 
 #include <QDialog>
 #include<QSortFilterProxyModel>
+#include"login.h"
 namespace Ui {
 class emergency;
 }
