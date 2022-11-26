@@ -8,6 +8,8 @@
 #include<QIcon>
 #include"record.h"
 #include"login.h"
+#include<QMainWindow>
+#include<QDialog>
 patientsinfo::patientsinfo(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::patientsinfo)
@@ -39,4 +41,13 @@ void patientsinfo::on_pushButtonrecord_clicked()
     record.setModal(true);
     record.exec();
 }
+/*Login*mainw;
+void patientsinfo::on_pushButton_2_clicked()
+{
+   hide();
 
+    mainw=new Login(this);
+    mainw->show();
+}
+
+*/

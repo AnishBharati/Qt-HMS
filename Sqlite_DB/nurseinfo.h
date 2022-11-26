@@ -28,6 +28,10 @@ private slots:
 
     void on_lineEdit_textChanged(const QString &arg1);
 
+    void on_pushButton_5_clicked();
+
+    void on_pushButton_4_clicked();
+
 private:
     Ui::NurseInfo *ui;
 };

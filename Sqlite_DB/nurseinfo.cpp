@@ -118,3 +118,77 @@ void NurseInfo::on_lineEdit_textChanged(const QString &arg1)
     proxyPersonas->setFilterFixedString(arg1);
 }
 
+
+void NurseInfo::on_pushButton_5_clicked()
+{
+    Login conn;
+    QString id,name,age,phone,surname,department;
+    id=ui->txt_id->text();
+    name=ui->txt_name->text();
+    surname=ui->txt_surname->text();
+    age=ui->txt_age->text();
+ phone=ui->txt_phone->text();
+ department=ui->txt_department->text();
+// email=ui->txt_phone_3->text();
+ //specialist=ui->txt_phone_2->text();
+   //  phone=ui->txt_phone->text();
+    if(!conn.connOpen()){
+
+            qDebug()<<"Failed to open the database";
+            return;
+        }
+       conn.connOpen();
+
+
+        QSqlQuery qry;
+       qry.prepare("delete from nurseinfo where ID='"+id+"' ");
+  /*
+        */
+       if(qry.exec())
+       {
+       QMessageBox::information(this,tr("delete"),tr("deleted"));
+       conn.connClose();
+       }
+       else
+       {
+           QMessageBox::critical(this,tr("error::"),qry.lastError().text());
+
+}
+}
+
+
+void NurseInfo::on_pushButton_4_clicked()
+{
+    Login conn;
+    QString id,name,age,phone,surname,department;
+    id=ui->txt_id->text();
+    name=ui->txt_name->text();
+    surname=ui->txt_surname->text();
+    age=ui->txt_age->text();
+ phone=ui->txt_phone->text();
+ department=ui->txt_department->text();
+// email=ui->txt_phone_3->text();
+ //specialist=ui->txt_phone_2->text();
+   //  phone=ui->txt_phone->text();
+    if(!conn.connOpen()){
+
+            qDebug()<<"Failed to open the database";
+            return;
+        }
+       conn.connOpen();
+
+
+        QSqlQuery qry;
+       qry.prepare("update nurseinfo set ID='"+id+"',Name='"+name+"',Age='"+age+"',Phone='"+phone+"',Surname='"+surname+"',Department='"+department+"' where ID='"+id+"' ");
+  /*
+        */
+       if(qry.exec())
+       {
+       QMessageBox::information(this,tr("edit"),tr("edited"));
+       conn.connClose();
+       }
+       else
+       {
+           QMessageBox::critical(this,tr("error::"),qry.lastError().text());
+}
+}

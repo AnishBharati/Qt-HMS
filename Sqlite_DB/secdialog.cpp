@@ -131,3 +131,77 @@ void secDialog::on_pushButton_4_clicked()
         //QMessageBox::Information()
 }
 
+
+void secDialog::on_pushButton_5_clicked()
+{
+    Login conn;
+    QString id,name,age,phone,surname;
+    id=ui->txt_id->text();
+    name=ui->txt_name->text();
+    surname=ui->txt_surname->text();
+    age=ui->txt_age->text();
+ phone=ui->txt_phone->text();
+// email=ui->txt_phone_3->text();
+ //specialist=ui->txt_phone_2->text();
+   //  phone=ui->txt_phone->text();
+    if(!conn.connOpen()){
+
+            qDebug()<<"Failed to open the database";
+            return;
+        }
+       conn.connOpen();
+
+
+        QSqlQuery qry;
+       qry.prepare("update patientsinfo set ID='"+id+"',Name='"+name+"',Age='"+age+"',Phone='"+phone+"',Surname='"+surname+"' where ID='"+id+"' ");
+  /*
+        */
+       if(qry.exec())
+       {
+       QMessageBox::information(this,tr("edit"),tr("edited"));
+       conn.connClose();
+       }
+       else
+       {
+           QMessageBox::critical(this,tr("error::"),qry.lastError().text());
+
+}}
+
+
+void secDialog::on_pushButton_6_clicked()
+{
+    Login conn;
+    QString id,name,age,phone,surname;
+    id=ui->txt_id->text();
+    name=ui->txt_name->text();
+    surname=ui->txt_surname->text();
+    age=ui->txt_age->text();
+ phone=ui->txt_phone->text();
+// email=ui->txt_phone_3->text();
+ //specialist=ui->txt_phone_2->text();
+   //  phone=ui->txt_phone->text();
+    if(!conn.connOpen()){
+
+            qDebug()<<"Failed to open the database";
+            return;
+        }
+       conn.connOpen();
+
+
+        QSqlQuery qry;
+       qry.prepare("delete from patientsinfo where ID='"+id+"' ");
+  /*
+        */
+       if(qry.exec())
+       {
+       QMessageBox::information(this,tr("delete"),tr("deleted"));
+       conn.connClose();
+       }
+       else
+       {
+           QMessageBox::critical(this,tr("error::"),qry.lastError().text());
+
+}}
+
+
+

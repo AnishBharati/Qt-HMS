@@ -70,7 +70,7 @@ void Login::on_pushButton_clicked()
 }
 
 
-void Login::on_pushButton_2_clicked()
+/*void Login::on_pushButton_2_clicked()
 {
     this->hide();
     Patientlogin patlogin;
@@ -88,3 +88,4 @@ void Login::on_pushButton_3_clicked()
     doclogin.exec();
 }
 
+*/
