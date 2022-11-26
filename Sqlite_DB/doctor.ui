@@ -17,9 +17,9 @@
    <property name="geometry">
     <rect>
      <x>570</x>
-     <y>70</y>
+     <y>30</y>
      <width>501</width>
-     <height>521</height>
+     <height>561</height>
     </rect>
    </property>
    <property name="font">
@@ -52,8 +52,11 @@
       <x>160</x>
       <y>50</y>
       <width>251</width>
-      <height>28</height>
+      <height>41</height>
      </rect>
+    </property>
+    <property name="placeholderText">
+     <string>ID</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_7">
@@ -75,8 +78,11 @@
       <x>160</x>
       <y>110</y>
       <width>251</width>
-      <height>28</height>
+      <height>41</height>
      </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Full Name</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_9">
@@ -98,8 +104,11 @@
       <x>160</x>
       <y>170</y>
       <width>251</width>
-      <height>28</height>
+      <height>41</height>
      </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Age</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_10">
@@ -121,17 +130,20 @@
       <x>160</x>
       <y>230</y>
       <width>251</width>
-      <height>28</height>
+      <height>41</height>
      </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Phone Number</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>460</y>
-      <width>101</width>
-      <height>31</height>
+      <x>20</x>
+      <y>440</y>
+      <width>111</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="text">
@@ -157,8 +169,11 @@
       <x>160</x>
       <y>290</y>
       <width>251</width>
-      <height>28</height>
+      <height>41</height>
      </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Specialist</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="txt_phone_3">
@@ -167,8 +182,11 @@
       <x>160</x>
       <y>350</y>
       <width>251</width>
-      <height>28</height>
+      <height>41</height>
      </rect>
+    </property>
+    <property name="placeholderText">
+     <string>E-mail</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -181,16 +199,16 @@
      </rect>
     </property>
     <property name="text">
-     <string>Email</string>
+     <string>E-mail</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_5">
     <property name="geometry">
      <rect>
       <x>360</x>
-      <y>460</y>
-      <width>101</width>
-      <height>31</height>
+      <y>440</y>
+      <width>111</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="text">
@@ -201,9 +219,9 @@
     <property name="geometry">
      <rect>
       <x>200</x>
-      <y>460</y>
-      <width>101</width>
-      <height>31</height>
+      <y>440</y>
+      <width>111</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="text">
@@ -214,11 +232,16 @@
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>950</x>
-     <y>20</y>
-     <width>93</width>
-     <height>29</height>
+     <x>930</x>
+     <y>600</y>
+     <width>111</width>
+     <height>51</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
    </property>
    <property name="text">
     <string>Back</string>
@@ -227,11 +250,16 @@
   <widget class="QLabel" name="label_sec_status">
    <property name="geometry">
     <rect>
-     <x>150</x>
-     <y>590</y>
-     <width>63</width>
-     <height>20</height>
+     <x>10</x>
+     <y>620</y>
+     <width>281</width>
+     <height>31</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
    </property>
    <property name="text">
     <string>TextLabel</string>
@@ -240,21 +268,31 @@
   <widget class="QTableView" name="tableView">
    <property name="geometry">
     <rect>
-     <x>70</x>
-     <y>100</y>
-     <width>441</width>
-     <height>471</height>
+     <x>40</x>
+     <y>80</y>
+     <width>471</width>
+     <height>491</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_3">
    <property name="geometry">
     <rect>
-     <x>300</x>
+     <x>230</x>
      <y>580</y>
-     <width>121</width>
-     <height>31</height>
+     <width>141</width>
+     <height>41</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
    </property>
    <property name="text">
     <string>LOAD TABLE</string>
@@ -266,30 +304,7 @@
      <x>440</x>
      <y>20</y>
      <width>82</width>
-     <height>28</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit">
-   <property name="geometry">
-    <rect>
-     <x>100</x>
-     <y>20</y>
-     <width>321</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="echoMode">
-    <enum>QLineEdit::Normal</enum>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_3">
-   <property name="geometry">
-    <rect>
-     <x>40</x>
-     <y>20</y>
-     <width>63</width>
-     <height>20</height>
+     <height>41</height>
     </rect>
    </property>
    <property name="font">
@@ -297,7 +312,25 @@
      <pointsize>12</pointsize>
     </font>
    </property>
-   <property name="text">
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>20</y>
+     <width>341</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Normal</enum>
+   </property>
+   <property name="placeholderText">
     <string>Search</string>
    </property>
   </widget>

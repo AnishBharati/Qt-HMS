@@ -1,14 +1,16 @@
 <RCC>
     <qresource prefix="/img">
-        <file>img/password.png</file>
-        <file>img/login.jfif</file>
-        <file>img/nurse.png</file>
-        <file>img/doctor.png</file>
-        <file>img/patient.png</file>
+        <file>img/alertsystem.jfif</file>
         <file>img/store.jfif</file>
+        <file>img/staff.png</file>
+        <file>img/doctor.cpp</file>
+        <file>img/nurse.png</file>
+        <file>img/log.png</file>
+        <file>img/emergency.png</file>
+        <file>img/doctor.png</file>
         <file>img/alert.png</file>
-        <file>../../../../Documents/patient.png</file>
-        <file>../../../../Documents/staff.png</file>
-        <file>../../../login.png</file>
+        <file>img/background1.webp</file>
+        <file>img/password.png</file>
+        <file>img/patient.png</file>
     </qresource>
 </RCC>

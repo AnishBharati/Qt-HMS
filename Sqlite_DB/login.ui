@@ -197,6 +197,9 @@
     <property name="text">
      <string/>
     </property>
+    <property name="pixmap">
+     <pixmap resource="img.qrc">:/img/img/log.png</pixmap>
+    </property>
    </widget>
    <widget class="QLabel" name="label_5">
     <property name="geometry">
@@ -211,7 +214,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="img.qrc">:/img/img/login.jfif</pixmap>
+     <pixmap resource="img.qrc">:/img/img/background1.webp</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>

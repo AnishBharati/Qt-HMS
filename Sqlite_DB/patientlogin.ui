@@ -235,7 +235,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap resource="img.qrc">:/img/login.png</pixmap>
+    <pixmap resource="img.qrc">:/img/Downloads/log.png</pixmap>
    </property>
   </widget>
  </widget>

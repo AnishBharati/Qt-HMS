@@ -3,6 +3,8 @@
 #include<QMessageBox>
 #include"record.h"
 #include<QSortFilterProxyModel>
+#include<QDesktopServices>
+#include<QFileDialog>
 secDialog::secDialog(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::secDialog)
@@ -112,5 +114,20 @@ proxyPersonas2->setFilterFixedString(arg1);
 void secDialog::on_cbColumnas_currentIndexChanged(int index)
 {
         proxyPersonas2->setFilterKeyColumn(index);
+}
+
+
+void secDialog::on_pushButton_4_clicked()
+{
+    QString filename=QFileDialog::getOpenFileName(
+                this,
+                tr("Open file"),
+                "C://",
+                    "All files (*.*);;Text File (*.txt);;Music File(*.mp3)"
+
+
+                );
+        QDesktopServices::openUrl(QUrl("file:///"+filename,QUrl::TolerantMode));
+        //QMessageBox::Information()
 }
 

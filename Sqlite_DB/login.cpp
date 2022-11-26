@@ -15,8 +15,7 @@ Login::Login(QWidget *parent)
     //ui->lineEdit_username->addAction(user, QLineEdit::LeadingPosition);
     //ui->lineEdit_password->addAction(pass, QLineEdit::LeadingPosition);
 
-    QPixmap login("C:/Users/Suraj/Downloads/login.png");
-    ui->label_pic->setPixmap(login);
+
     if(!connOpen())
             ui->label->setText("Failed to open Database");
             else

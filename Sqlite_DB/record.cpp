@@ -16,12 +16,6 @@ Record::~Record()
 {
     delete ui;
 }
-
-
-
-
-
-
 void Record::on_pushButton_1_clicked()
 {
     if(ui->radioButton->isChecked())
@@ -63,4 +57,3 @@ void Record::on_pushButton_2_clicked()
     patientsinfo.setModal(true);
     patientsinfo.exec();
 }
-

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1065</width>
-    <height>664</height>
+    <width>878</width>
+    <height>479</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,11 +16,16 @@
   <widget class="QLabel" name="label_sec_status">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>590</y>
-     <width>63</width>
-     <height>20</height>
+     <x>10</x>
+     <y>450</y>
+     <width>181</width>
+     <height>21</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
    </property>
    <property name="text">
     <string>Text label</string>
@@ -29,15 +34,15 @@
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>380</x>
+     <x>240</x>
      <y>20</y>
-     <width>341</width>
+     <width>401</width>
      <height>41</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <pointsize>13</pointsize>
+     <pointsize>17</pointsize>
      <bold>true</bold>
      <underline>true</underline>
     </font>
@@ -46,49 +51,18 @@
     <string>Hospital Management System</string>
    </property>
   </widget>
-  <widget class="Line" name="line">
-   <property name="geometry">
-    <rect>
-     <x>533</x>
-     <y>100</y>
-     <width>20</width>
-     <height>471</height>
-    </rect>
-   </property>
-   <property name="orientation">
-    <enum>Qt::Vertical</enum>
-   </property>
-  </widget>
-  <widget class="QTextBrowser" name="textBrowser">
-   <property name="geometry">
-    <rect>
-     <x>70</x>
-     <y>180</y>
-     <width>291</width>
-     <height>131</height>
-    </rect>
-   </property>
-   <property name="html">
-    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-hr { height: 1px; border-width: 0; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Hello Everyone. Welcome to our project, Hospital Management System. This project helps you to keep the data of patients and staff and send the information to them in the case of emergency. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>840</x>
-     <y>610</y>
-     <width>201</width>
-     <height>21</height>
+     <x>-10</x>
+     <y>80</y>
+     <width>231</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <pointsize>11</pointsize>
+     <pointsize>12</pointsize>
      <bold>true</bold>
     </font>
    </property>
@@ -99,10 +73,10 @@ hr { height: 1px; border-width: 0; }
   <widget class="QPushButton" name="pushButtonrecord">
    <property name="geometry">
     <rect>
-     <x>730</x>
-     <y>340</y>
-     <width>201</width>
-     <height>191</height>
+     <x>90</x>
+     <y>150</y>
+     <width>240</width>
+     <height>240</height>
     </rect>
    </property>
    <property name="autoFillBackground">
@@ -117,8 +91,8 @@ hr { height: 1px; border-width: 0; }
    </property>
    <property name="iconSize">
     <size>
-     <width>150</width>
-     <height>150</height>
+     <width>200</width>
+     <height>200</height>
     </size>
    </property>
    <property name="shortcut">
@@ -140,10 +114,10 @@ hr { height: 1px; border-width: 0; }
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>730</x>
-     <y>100</y>
-     <width>201</width>
-     <height>191</height>
+     <x>540</x>
+     <y>150</y>
+     <width>240</width>
+     <height>240</height>
     </rect>
    </property>
    <property name="text">
@@ -155,9 +129,89 @@ hr { height: 1px; border-width: 0; }
    </property>
    <property name="iconSize">
     <size>
-     <width>150</width>
-     <height>150</height>
+     <width>200</width>
+     <height>200</height>
     </size>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>150</y>
+     <width>20</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>390</y>
+     <width>91</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Records</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>390</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Emergency Alert</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>80</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Log out</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>130</y>
+     <width>891</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
    </property>
   </widget>
  </widget>

@@ -29,6 +29,8 @@ private slots:
 
     void on_cbColumnas_currentIndexChanged(int index);
 
+    void on_pushButton_4_clicked();
+
 private:
     Ui::secDialog *ui;
 };

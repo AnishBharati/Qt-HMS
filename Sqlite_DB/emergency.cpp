@@ -12,8 +12,7 @@ emergency::emergency(QWidget *parent) :
     ui(new Ui::emergency)
 {
     ui->setupUi(this);
-    QPixmap back("‪C:/Users/Suraj/Downloads/alertsystem.jpg");
-    ui->label_2->setPixmap(back);
+
 }
 
 emergency::~emergency()
