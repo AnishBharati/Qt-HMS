@@ -97,7 +97,7 @@ void Doctor::on_pushButton_3_clicked()
     //proxyPersonas->setFilterFixedString("ko");
 
 
-ui->cbColumnas->addItems(QStringList()<<"ID"<<"Name"<<"Email"<<"Age"<<"Phone"<<"Specialist");
+//ui->cbColumnas->addItems(QStringList()<<"ID"<<"Name"<<"Email"<<"Age"<<"Phone"<<"Specialist");
 
     ui->tableView->setModel(proxyPersonas);
 
@@ -114,13 +114,6 @@ void Doctor::on_lineEdit_textChanged(const QString &arg1)
     proxyPersonas->setFilterFixedString(arg1);
 }
 
-
-void Doctor::on_cbColumnas_currentIndexChanged(int index)
-{
-     //ui->cbColumnas->addItems(QStringList()<<"ID"<<"Name"<<"Email"<<"Age"<<"Phone"<<"Specialist");
-    proxyPersonas->setFilterKeyColumn(index);
-
-}
 
 
 void Doctor::on_pushButton_6_clicked()
@@ -186,7 +179,7 @@ void Doctor::on_pushButton_5_clicked()
         */
        if(qry.exec())
        {
-       QMessageBox::information(this,tr("delete"),tr("delete"));
+       QMessageBox::critical(this,tr("delete"),tr("deleted"));
        conn.connClose();
        }
        else

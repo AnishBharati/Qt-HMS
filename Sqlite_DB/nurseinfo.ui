@@ -295,21 +295,6 @@
     <string>LOAD TABLE</string>
    </property>
   </widget>
-  <widget class="QComboBox" name="cbColumnas">
-   <property name="geometry">
-    <rect>
-     <x>470</x>
-     <y>20</y>
-     <width>81</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>12</pointsize>
-    </font>
-   </property>
-  </widget>
   <widget class="QLineEdit" name="lineEdit">
    <property name="geometry">
     <rect>

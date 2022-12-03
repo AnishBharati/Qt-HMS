@@ -91,7 +91,7 @@ void secDialog::on_pushButton_3_clicked()
     proxyPersonas2->setFilterKeyColumn(-1);
     //proxyPersonas2->setFilterFixedString("ko");
 
-    ui->cbColumnas->addItems(QStringList()<<"ID"<<"Name"<<"Surname"<<"Age"<<"Phone");
+   // ui->cbColumnas->addItems(QStringList()<<"ID"<<"Name"<<"Surname"<<"Age"<<"Phone");
 
 
     ui->tableView->setModel(proxyPersonas2);
@@ -111,10 +111,11 @@ proxyPersonas2->setFilterFixedString(arg1);
 }
 
 
-void secDialog::on_cbColumnas_currentIndexChanged(int index)
+/*void secDialog::on_cbColumnas_currentIndexChanged(int index)
 {
         proxyPersonas2->setFilterKeyColumn(index);
 }
+*/
 
 
 void secDialog::on_pushButton_4_clicked()

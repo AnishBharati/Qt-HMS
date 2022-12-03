@@ -46,21 +46,6 @@
     </font>
    </property>
   </widget>
-  <widget class="QComboBox" name="cbColumnas">
-   <property name="geometry">
-    <rect>
-     <x>900</x>
-     <y>30</y>
-     <width>82</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>12</pointsize>
-    </font>
-   </property>
-  </widget>
   <widget class="QLineEdit" name="lineEdit">
    <property name="geometry">
     <rect>

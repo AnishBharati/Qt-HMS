@@ -93,7 +93,7 @@ void NurseInfo::on_pushButton_3_clicked()
     proxyPersonas->setFilterKeyColumn(-1);
     //proxyPersonas->setFilterFixedString("ko");
 
-    ui->cbColumnas->addItems(QStringList()<<"ID"<<"Name"<<"Surname"<<"Age"<<"Phone"<<"Department");
+  //  ui->cbColumnas->addItems(QStringList()<<"ID"<<"Name"<<"Surname"<<"Age"<<"Phone"<<"Department");
 
 
     ui->tableView->setModel(proxyPersonas);
@@ -107,11 +107,11 @@ void NurseInfo::on_pushButton_3_clicked()
 
 
 
-void NurseInfo::on_cbColumnas_currentIndexChanged(int index)
+/*void NurseInfo::on_cbColumnas_currentIndexChanged(int index)
 {
     proxyPersonas->setFilterKeyColumn(index);
 }
-
+*/
 
 void NurseInfo::on_lineEdit_textChanged(const QString &arg1)
 {

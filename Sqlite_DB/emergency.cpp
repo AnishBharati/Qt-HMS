@@ -39,7 +39,7 @@ void emergency::on_pushButton_load_table_clicked()
     proxyPersonas1->setFilterKeyColumn(-1);
     //proxyPersonas1->setFilterFixedString("ko");
 
-    ui->cbColumnas->addItems(QStringList()<<"ID"<<"Name"<<"Phone"<<"Email"<<"Specialist");
+  //  ui->cbColumnas->addItems(QStringList()<<"ID"<<"Name"<<"Phone"<<"Email"<<"Specialist");
 
 
     ui->tableView->setModel(proxyPersonas1);
@@ -56,11 +56,11 @@ void emergency::on_lineEdit_textChanged(const QString &arg1)
 }
 
 
-void emergency::on_cbColumnas_currentIndexChanged(int index)
+/*void emergency::on_cbColumnas_currentIndexChanged(int index)
 {
     proxyPersonas1->setFilterKeyColumn(index);
 }
-
+*/
 
 void emergency::on_pushButton_back_clicked()
 {

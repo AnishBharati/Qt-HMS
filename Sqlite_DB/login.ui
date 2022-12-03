@@ -6,19 +6,23 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1065</width>
-    <height>664</height>
+    <width>1050</width>
+    <height>584</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Login</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="img.qrc">
+    <normaloff>:/img/img/doctor.cpp</normaloff>:/img/img/doctor.cpp</iconset>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>540</y>
+      <x>70</x>
+      <y>470</y>
       <width>411</width>
       <height>61</height>
      </rect>
@@ -36,8 +40,8 @@
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
      <rect>
-      <x>590</x>
-      <y>80</y>
+      <x>580</x>
+      <y>130</y>
       <width>411</width>
       <height>381</height>
      </rect>
@@ -164,6 +168,44 @@
       <bool>true</bool>
      </property>
     </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>100</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="img.qrc">:/img/img/background1.webp</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>230</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="img.qrc">:/img/img/password.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
    </widget>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
@@ -189,7 +231,7 @@
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>90</y>
+      <y>120</y>
       <width>501</width>
       <height>391</height>
      </rect>
@@ -201,51 +243,13 @@
      <pixmap resource="img.qrc">:/img/img/log.png</pixmap>
     </property>
    </widget>
-   <widget class="QLabel" name="label_5">
-    <property name="geometry">
-     <rect>
-      <x>600</x>
-      <y>180</y>
-      <width>41</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap resource="img.qrc">:/img/img/background1.webp</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_6">
-    <property name="geometry">
-     <rect>
-      <x>600</x>
-      <y>310</y>
-      <width>41</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap resource="img.qrc">:/img/img/password.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1065</width>
+     <width>1050</width>
      <height>25</height>
     </rect>
    </property>

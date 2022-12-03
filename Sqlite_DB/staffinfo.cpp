@@ -92,7 +92,7 @@ void StaffInfo::on_pushButton_3_clicked()
     proxyPersonas->setFilterKeyColumn(-1);
     //proxyPersonas->setFilterFixedString("ko");
 
-    ui->cbColumnas->addItems(QStringList()<<"ID"<<"Name"<<"Surname"<<"Age"<<"Phone"<<"Department");
+   // ui->cbColumnas->addItems(QStringList()<<"ID"<<"Name"<<"Surname"<<"Age"<<"Phone"<<"Department");
 
 
     ui->tableView->setModel(proxyPersonas);
@@ -111,7 +111,7 @@ void StaffInfo::on_lineEdit_textChanged(const QString &arg1)
 
 
 
-void StaffInfo::on_cbColumnas_currentIndexChanged(int index)
+/*void StaffInfo::on_cbColumnas_currentIndexChanged(int index)
 {
     proxyPersonas->setFilterKeyColumn(index);
     if (index==6)
@@ -120,7 +120,7 @@ void StaffInfo::on_cbColumnas_currentIndexChanged(int index)
     }
 
 }
-
+*/
 
 void StaffInfo::on_pushButton_5_clicked()
 {
